@@ -1,0 +1,376 @@
+LAD,Suicide registrations(2021)
+Adur,3
+Allerdale,10
+Amber Valley,9
+Arun,12
+Ashfield,11
+Ashford,16
+Babergh,4
+Barking and Dagenham,17
+Barnet,10
+Barnsley,37
+Barrow-in-Furness,9
+Basildon,10
+Basingstoke and Deane,9
+Bassetlaw,15
+Bath and North East Somerset,18
+Bedford,20
+Bexley,12
+Birmingham,84
+Blaby,11
+Blackburn with Darwen,13
+Blackpool,21
+Blaenau Gwent / Blaenau Gwent,12
+Bolsover,8
+Bolton,23
+Boston,7
+"Bournemouth, Christchurch and Poole",43
+Bracknell Forest,8
+Bradford,50
+Braintree,8
+Breckland,13
+Brent,16
+Brentwood,6
+Bridgend / Pen-y-bont ar Ogwr,18
+Brighton and Hove,39
+"Bristol, City of",46
+Broadland,11
+Bromley,13
+Bromsgrove,10
+Broxbourne,6
+Broxtowe,15
+Buckinghamshire,49
+Burnley,8
+Bury,28
+Caerphilly / Caerffili,18
+Calderdale,43
+Cambridge,16
+Cambridgeshire,58
+Camden,9
+Cannock Chase,9
+Canterbury,17
+Cardiff / Caerdydd,34
+Carlisle,18
+Carmarthenshire / Sir Gaerfyrddin,13
+Castle Point,3
+Central Bedfordshire,15
+Ceredigion / Ceredigion,10
+Charnwood,16
+Chelmsford,9
+Cheltenham,7
+Cherwell,16
+Cheshire East,46
+Cheshire West and Chester,43
+Chesterfield,13
+Chichester,13
+Chorley,17
+City of London,0
+Colchester,14
+Conwy / Conwy,13
+Copeland,8
+Cornwall,73
+Cotswold,12
+County Durham,90
+Coventry,24
+Craven,3
+Crawley,14
+Croydon,20
+Cumbria,67
+Dacorum,8
+Darlington,24
+Dartford,2
+Denbighshire / Sir Ddinbych,11
+Derby,20
+Derbyshire,80
+Derbyshire Dales,8
+Devon,95
+Doncaster,45
+Dorset,45
+Dover,9
+Dudley,25
+Ealing,25
+East,449
+East Cambridgeshire,9
+East Devon,20
+East Hampshire,13
+East Hertfordshire,10
+East Lindsey,21
+East Midlands,465
+East Riding of Yorkshire,38
+East Staffordshire,18
+East Suffolk,21
+East Sussex,58
+Eastbourne,17
+Eastleigh,7
+Eden,7
+Elmbridge,10
+Enfield,12
+England,5219
+England and Wales,5583
+Epping Forest,12
+Epsom and Ewell,6
+Erewash,17
+Essex,96
+Exeter,13
+Fareham,9
+Fenland,11
+Flintshire / Sir y Fflint,10
+Folkestone and Hythe,8
+Forest of Dean,14
+Fylde,8
+Gateshead,16
+Gedling,10
+Gloucester,12
+Gloucestershire,61
+Gosport,8
+Gravesham,8
+Great Yarmouth,12
+Greater Manchester (Met County),301
+Greenwich,14
+Guildford,8
+Gwynedd / Gwynedd,15
+Hackney,17
+Halton,11
+Hambleton,5
+Hammersmith and Fulham,34
+Hampshire,113
+Harborough,10
+Haringey,13
+Harlow,6
+Harrogate,10
+Harrow,12
+Hart,8
+Hartlepool,13
+Hastings,8
+Havant,11
+Havering,23
+"Herefordshire, County of",16
+Hertfordshire,56
+Hertsmere,5
+High Peak,11
+Hillingdon,24
+Hinckley and Bosworth,2
+Horsham,14
+Hounslow,17
+Huntingdonshire,9
+Hyndburn,9
+Inner London,224
+Ipswich,16
+Isle of Anglesey / Ynys Môn,9
+Isle of Wight,20
+Isles of Scilly,0
+Islington,14
+Kensington and Chelsea,17
+Kent,149
+"Kingston upon Hull, City of",27
+Kingston upon Thames,11
+King’s Lynn and West Norfolk,10
+Kirklees,49
+Knowsley,21
+Lambeth,9
+Lancashire,145
+Lancaster,17
+Leeds,88
+Leicester,26
+Leicestershire,62
+Lewes,10
+Lewisham,17
+Lichfield,11
+Lincoln,13
+Lincolnshire,79
+Liverpool,50
+London,520
+Luton,12
+Maidstone,16
+Maldon,6
+Malvern Hills,13
+Manchester,70
+Mansfield,15
+Medway,33
+Melton,6
+Mendip,14
+Merseyside (Met County),164
+Merthyr Tydfil / Merthyr Tudful,11
+Merton,10
+Mid Devon,11
+Mid Suffolk,8
+Mid Sussex,17
+Middlesbrough,13
+Milton Keynes,38
+Mole Valley,11
+Monmouthshire / Sir Fynwy,4
+Neath Port Talbot / Castell-nedd Port Talbot,9
+New Forest,14
+Newark and Sherwood,11
+Newcastle upon Tyne,32
+Newcastle-under-Lyme,17
+Newham,20
+Newport / Casnewydd,15
+Norfolk,91
+North Devon,11
+North East,328
+North East Derbyshire,12
+North East Lincolnshire,9
+North Hertfordshire,7
+North Kesteven,13
+North Lincolnshire,12
+North Norfolk,17
+North Northamptonshire,39
+North Somerset,17
+North Tyneside,25
+North Warwickshire,7
+North West,825
+North West Leicestershire,14
+North Yorkshire,45
+Northumberland,39
+Norwich,13
+Nottingham,30
+Nottinghamshire,85
+Nuneaton and Bedworth,18
+Oadby and Wigston,3
+Oldham,28
+Outer London,296
+Oxford,9
+Oxfordshire,65
+Pembrokeshire / Sir Benfro,9
+Pendle,10
+Peterborough,15
+Plymouth,28
+Portsmouth,19
+Powys / Powys,21
+Preston,25
+Reading,17
+Redbridge,21
+Redcar and Cleveland,21
+Redditch,14
+Reigate and Banstead,17
+Rhondda Cynon Taf / Rhondda Cynon Taf,34
+Ribble Valley,4
+Richmond upon Thames,8
+Richmondshire,5
+Rochdale,29
+Rochford,5
+Rossendale,6
+Rother,6
+Rotherham,27
+Rugby,12
+Runnymede,5
+Rushcliffe,8
+Rushmoor,10
+Rutland,1
+Ryedale,5
+Salford,30
+Sandwell,27
+Scarborough,11
+Sedgemoor,18
+Sefton,29
+Selby,6
+Sevenoaks,17
+Sheffield,48
+Shropshire,31
+Slough,16
+Solihull,18
+Somerset,78
+Somerset West and Taunton,23
+South Cambridgeshire,13
+South Derbyshire,2
+South East,848
+South Gloucestershire,20
+South Hams,6
+South Holland,12
+South Kesteven,9
+South Lakeland,15
+South Norfolk,15
+South Oxfordshire,13
+South Ribble,13
+South Somerset,23
+South Staffordshire,11
+South Tyneside,11
+South West,630
+South Yorkshire (Met County),157
+Southampton,24
+Southend-on-Sea,14
+Southwark,13
+Spelthorne,7
+St Albans,7
+St. Helens,32
+Stafford,8
+Staffordshire,87
+Staffordshire Moorlands,9
+Stevenage,3
+Stockport,21
+Stockton-on-Tees,16
+Stoke-on-Trent,47
+Stratford-on-Avon,20
+Stroud,13
+Suffolk,67
+Sunderland,28
+Surrey,88
+Surrey Heath,6
+Sutton,14
+Swale,19
+Swansea / Abertawe,32
+Swindon,26
+Tameside,12
+Tamworth,4
+Tandridge,4
+Teignbridge,16
+Telford and Wrekin,19
+Tendring,12
+Test Valley,12
+Tewkesbury,3
+Thanet,14
+Three Rivers,3
+Thurrock,5
+Tonbridge and Malling,13
+Torbay,21
+Torfaen / Tor-faen,7
+Torridge,6
+Tower Hamlets,25
+Trafford,26
+Tunbridge Wells,10
+Tyne and Wear (Met County),112
+Uttlesford,5
+Vale of Glamorgan / Bro Morgannwg,21
+Vale of White Horse,18
+Wakefield,51
+Wales,347
+Walsall,16
+Waltham Forest,17
+Wandsworth,21
+Warrington,14
+Warwick,19
+Warwickshire,76
+Watford,2
+Waverley,7
+Wealden,17
+Welwyn Hatfield,5
+West Berkshire,11
+West Devon,12
+West Lancashire,16
+West Lindsey,4
+West Midlands,565
+West Midlands (Met County),209
+West Northamptonshire,43
+West Oxfordshire,9
+West Suffolk,18
+West Sussex,86
+West Yorkshire (Met County),281
+Westminster,15
+Wigan,34
+Wiltshire,59
+Winchester,12
+Windsor and Maidenhead,9
+Wirral,32
+Woking,7
+Wokingham,6
+Wolverhampton,15
+Worcester,11
+Worcestershire,80
+Worthing,13
+Wrexham / Wrecsam,21
+Wychavon,18
+Wyre,12
+Wyre Forest,14
+York,20
+Yorkshire and The Humber,589
