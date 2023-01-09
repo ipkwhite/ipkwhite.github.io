@@ -288,7 +288,7 @@ h1, h3, p{
  }
 
  @media screen and (max-width:320px) {
-    .content {
+    .chart {
         width: 100%;
 	margin-left: 0;
         
@@ -296,13 +296,13 @@ h1, h3, p{
 }
 
 @media screen and (max-width:320px) {
-    .chart {
+    #Chart2 {
         width: 100%;
         margin-left: 0;
     }
 }
 @media (max-width: 320px) {
-    .rectangle-chart {
+    #Chart3 {
       width: 100%;
   margin-left: 0;
     }
