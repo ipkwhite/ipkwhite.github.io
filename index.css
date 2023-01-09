@@ -8,10 +8,7 @@
 
  /* BUTTONS */
 
- @viewport {
-    width: devide width;
-    zoom:1.0;
- }
+
 
  #link3{
         
@@ -285,3 +282,28 @@ h1, h3, p{
     
 }
 
+@viewport {
+    width: devide width;
+    zoom:1.0;
+ }
+
+ @media screen and (max-width:768px) {
+    .content {
+        width: 100%;
+	margin-left: 0;
+        
+    }
+}
+
+@media screen and (max-width:768px) {
+    .chart {
+        width: 100%;
+        margin-left: 0;
+    }
+}
+@media (max-width: 768px) {
+    .rectangle-chart {
+      width: 100%;
+  margin-left: 0;
+    }
+  }
