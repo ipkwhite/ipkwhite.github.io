@@ -107,49 +107,7 @@ h1, h3, p{
 
 
 
-#Chart3, #Chart4 {
-    border-color: rgb(0, 0, 0);
-    border-radius: 5px;
-    border-width: 3px;
-    background-color: rgb(255, 255, 255);
-    width:420px;
-    height:382px; 
-    margin-left: 30%;
-    margin-right: 10%;
-    text-align:center;
-    display: inline-block;
-    max-width: 100%;
-    align-items:center
-}
-    
-    
-#Chart5, #Chart6 {
-     border-color: rgb(0, 0, 0);
-     background-color: rgb(255, 255, 255);
-     border-radius: 5px;
-     border-width: 3px;
-     width:400px;
-        height:400px; 
-        margin-left: 20%;
-        margin-right: 10%;
-        text-align:center;
-        display: inline-block;
-        align-items:center
-}
 
-#Chart7{
-    border-color: rgb(0, 0, 0);
-    background-color: rgb(255, 255, 255);
-    border-radius: 5px;
-    border-width: 3px;
-    width:400px;
-       height:475px; 
-       align-items:center;
-       max-width: 100%;
-       text-align:center;
-       display: inline-block;
-       align-items:center
-}
 
 .dashboard_charts{
     border-radius: 5px; 
@@ -172,114 +130,8 @@ h1, h3, p{
 }
 
 
-#Chart8, #Chart9, #Chart10{
-    border-color: rgb(0, 0, 0);
-    background-color: rgb(255, 255, 255);
-    border-radius: 5px;
-    border-width: 3px;
-    width:275px;
-       height:300px; 
-       align-items:center;
-       display: inline-block
 
-    
-}
 
-#Chart11, #Chart12, #Chart13{
-    border-color: rgb(0, 0, 0);
-    background-color: rgb(255, 255, 255);
-    border-radius: 5px;
-    border-width: 3px;
-    width:275px;
-       height:300px; 
-       display: inline-block
-       
-    
-}
-
-#Chart14, #Chart15{
-    border-color: rgb(0, 0, 0);
-    background-color: rgb(255, 255, 255);
-    border-radius: 5px;
-    border-width: 3px;
-    width:275px;
-       height:300px; 
-       display: inline-block;
-       align-items:center
-    
-}
-#Chart16{
-    border-color: rgb(0, 0, 0);
-    background-color: rgb(255, 255, 255);
-    border-radius: 5px;
-    border-width: 3px;
-    width:310px;
-       height:300px; 
-       display: inline-block;
-       align-items:center;
-}
-
-#Chart17{
-    border-color: rgb(0, 0, 0);
-    background-color: rgb(255, 255, 255);
-    border-radius: 5px;
-    border-width: 3px;
-    width:425px;
-       height:500px; 
-       margin-left: 30%;
-       margin-right: 10%;
-       text-align:center;
-       display: inline-block;
-       align-items:center
-    
-}
-#Chart18{
-    border-color: rgb(0, 0, 0);
-    background-color: rgb(255, 255, 255);
-    border-radius: 5px;
-    border-width: 3px;
-    width:600px;
-       height:500px; 
-       margin-left: 20%;
-       margin-right: 10%;
-       text-align:center;
-       display: inline-block;
-       align-items:center
-       
-    
-}
-
-#Chart19{
-    border-color: rgb(0, 0, 0);
-    background-color: rgb(255, 255, 255);
-    border-radius: 5px;
-    border-width: 3px;
-    width:375px;
-       height: 400px; 
-       margin-left: 30%;
-       margin-right: 10%;
-       text-align:center;
-       display: inline-block;
-       align-items:center
-       
-    
-}
-
-#Chart20{
-    border-color: rgb(0, 0, 0);
-    background-color: rgb(255, 255, 255);
-    border-radius: 5px;
-    border-width: 3px;
-    width:375px;
-       height:400px; 
-       margin-left: 30%;
-       margin-right: 10%;
-       text-align:center;
-       display: inline-block;
-       align-items:center
-       
-    
-}
 
 @media screen and (max-width:600px) {
     .chart {
