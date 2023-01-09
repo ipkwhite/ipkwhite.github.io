@@ -287,7 +287,7 @@ h1, h3, p{
     zoom:1.0;
  }
 
- @media screen and (max-width:768px) {
+ @media screen and (max-width:320px) {
     .content {
         width: 100%;
 	margin-left: 0;
@@ -295,13 +295,13 @@ h1, h3, p{
     }
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:320px) {
     .chart {
         width: 100%;
         margin-left: 0;
     }
 }
-@media (max-width: 768px) {
+@media (max-width: 320px) {
     .rectangle-chart {
       width: 100%;
   margin-left: 0;
