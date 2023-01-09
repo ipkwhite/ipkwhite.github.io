@@ -78,6 +78,7 @@ h1, h3, p{
     border-style: solid;
     border-radius: 10px;
     border-color: rgb(61, 61, 61);
+    width: 1000px
 }
 
 .chart{
@@ -117,6 +118,7 @@ h1, h3, p{
     text-align:center;
     display: inline-block;
     max-width: 100%;
+    align-items:center
 }
     
     
@@ -125,13 +127,11 @@ h1, h3, p{
      background-color: rgb(255, 255, 255);
      border-radius: 5px;
      border-width: 3px;
-     width:675px;
+     width:400px;
         height:400px; 
-        margin-left: 20%;
-        margin-right: 10%;
-        max-width: 100%;
         text-align:center;
-        display: inline-block
+        display: inline-block;
+        align-items:center
 }
 
 #Chart7{
@@ -144,7 +144,8 @@ h1, h3, p{
        align-items:center;
        max-width: 100%;
        text-align:center;
-       display: inline-block
+       display: inline-block;
+       align-items:center
 }
 
 .dashboard_charts{
@@ -155,6 +156,7 @@ h1, h3, p{
     margin: auto;
     margin-bottom: 2.5%; 
     max-width: 100%;
+    align-items:center
 
 
 
@@ -199,7 +201,8 @@ h1, h3, p{
     border-width: 3px;
     width:275px;
        height:300px; 
-       display: inline-block
+       display: inline-block;
+       align-items:center
     
 }
 #Chart16{
@@ -209,7 +212,8 @@ h1, h3, p{
     border-width: 3px;
     width:310px;
        height:300px; 
-       display: inline-block
+       display: inline-block;
+       align-items:center;
 }
 
 #Chart17{
@@ -222,7 +226,8 @@ h1, h3, p{
        margin-left: 30%;
        margin-right: 10%;
        text-align:center;
-       display: inline-block
+       display: inline-block;
+       align-items:center
     
 }
 #Chart18{
@@ -235,7 +240,8 @@ h1, h3, p{
        margin-left: 20%;
        margin-right: 10%;
        text-align:center;
-       display: inline-block
+       display: inline-block;
+       align-items:center
        
     
 }
@@ -250,7 +256,8 @@ h1, h3, p{
        margin-left: 30%;
        margin-right: 10%;
        text-align:center;
-       display: inline-block
+       display: inline-block;
+       align-items:center
        
     
 }
@@ -265,7 +272,8 @@ h1, h3, p{
        margin-left: 30%;
        margin-right: 10%;
        text-align:center;
-       display: inline-block
+       display: inline-block;
+       align-items:center
        
     
 }
