@@ -98,7 +98,8 @@ h1, h3, p{
     width: auto;
     height: flex;
     justify-content: center;
-    align-items:center
+    align-items:center;
+    margin-left:100px
 }
 
 /* Appearances for particular charts */
@@ -280,24 +281,13 @@ h1, h3, p{
     
 }
 
- @media screen and (max-width:600px) {
+@media screen and (max-width:600px) {
     .chart {
         width: 100%;
         margin-left: 0
     }
 
-    .chart {
+    .chart{
         transform: none
     }
-
-    #Chart3, #Chart4 {
-        width: 100%;
-        margin-left: 0
-    }
-
-   
-   
-
-    
 }
-
