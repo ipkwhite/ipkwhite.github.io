@@ -83,25 +83,12 @@ h1, h3, p{
     width: 1000px
 }
 
-.chart{
-   
-    border-color: rgb(0, 0, 0);
-    border-radius: 5px; 
-    border-style: solid;
-    border-width: 3px;
-    background-color: rgb(255, 255, 255);
-    display: inline-block;
-    margin: auto;
-    margin-bottom: 2.5%;
-    max-width: 100%;
-    text-align: center;
-    margin-left: 30%;
-    margin-right: 10%;
-    width: auto;
-    height: flex;
-    justify-content: center;
-    align-items:center
-}
+.chart {
+    margin: 0 auto; /* Center the chart horizontally */
+    display: block; /* Make the chart a block element */
+    max-width: 100%; /* Set a maximum width to make the chart responsive */
+  }
+  
 
 /* Appearances for particular charts */
 
