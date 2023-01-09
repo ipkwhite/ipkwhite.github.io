@@ -1,4 +1,4 @@
-Country,Annual consumption of 1,000 - 2,500 KWhin (euro cents per kilowatt-hour),Annual consumption of 2,500 - 5,000 KWh(euro cents per kilowatt-hour),Nuclear energy usage (2021)
+Country,Annual consumption of 1000 - 2500 KWhin (euro cents per kilowatt-hour),Annual consumption of 2500 - 5000 KWh(euro cents per kilowatt-hour),Nuclear energy usage (2021)
 Germany,35.27,31.93,69130
 Belgium,29.10,27.02,50326
 Spain,28.85,23.23,56564
@@ -13,4 +13,3 @@ Lithuania,13.77,13.480
 Bulgaria,10.45,10.24,16487
 Hungary,10.14,10.03,15990
 Netherlands,3.75,12.81,3828
-
