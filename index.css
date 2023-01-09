@@ -83,12 +83,23 @@ h1, h3, p{
     width: 1000px
 }
 
-.chart {
-    margin: 0 auto; /* Center the chart horizontally */
-    display: block; /* Make the chart a block element */
-    max-width: 100%; /* Set a maximum width to make the chart responsive */
-  }
-  
+.chart{
+   
+    border-color: rgb(0, 0, 0);
+    border-radius: 5px; 
+    border-style: solid;
+    border-width: 3px;
+    background-color: rgb(255, 255, 255);
+    display: inline-block;
+    margin: auto;
+    margin-bottom: 2.5%;
+    max-width: 100%;
+    text-align: center;
+    width: auto;
+    height: flex;
+    justify-content: center;
+    align-items:center
+}
 
 /* Appearances for particular charts */
 
@@ -269,30 +280,13 @@ h1, h3, p{
     
 }
 
-@viewport {
-    width: devide width;
-    zoom:1.0;
- }
-
- @media screen and (max-width:768px) {
+ @media screen and (max-width:600px) {
     .chart {
         width: 100%;
-	margin-left: 0;
-    float: left;
-        
+        margin-left: 0
     }
-}
 
-@media screen and (max-width:768px) {
-    #Chart2 {
-        width: 100%;
-        margin-left: 0;
-        float: left
+    .chart,.chart:hover {
+        transform: none
     }
 }
-@media (max-width: 768px) {
-    #Chart3 {
-      width: 100%;
-  margin-left: 0;
-    }
-  }
