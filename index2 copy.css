@@ -1,0 +1,420 @@
+
+/* Import a font, from google Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+body{
+    background-color: rgb(40, 107, 130);
+}
+
+/* Font Style */
+
+.title{
+    color: antiquewhite;
+    text-align: center;
+    font-size: 35px;
+}
+
+h1, h3, p{
+    color:rgb(17, 17, 17);
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+
+h2{ 
+    color:antiquewhite;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+
+/* Text shit */
+/* 
+#text {
+    position: static;
+    top: 80px;
+    right: 50px;
+    bottom: 50px;
+    left: 50px;
+    padding: 0px;
+    overflow-y: hidden;
+    box-sizing: border-box;
+}
+#text2 {
+    position: static;
+    top: 80px;
+    right: 50px;
+    bottom: 50px;
+    left: 50px;
+    padding: 0px;
+    overflow-y: hidden;
+    box-sizing: border-box;
+} */
+
+/* Week Background */
+/* Week 1 = CAFFB9, Week 2 = AEF78E, Week 3 = 79E28E, Week 4 = #58da72 */
+
+.myWeek1{
+    margin: auto;
+    max-width: 1000px;
+    background-color: rgb(202,255,185);
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 50px;
+    border-color: rgb(0, 0, 0);
+}
+
+.myWeek2{
+    margin: auto;
+    max-width: 1000px;
+    background-color: rgb(174,247,142);
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 50px;
+    border-color: rgb(0, 0, 0);
+}
+
+.myWeek3{
+    margin: auto;
+    max-width: 1000px;
+    background-color: rgb(121,226,142); 
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 50px;
+    border-color: rgb(0, 0, 0);
+}
+
+.myWeek4{
+    margin: auto;
+    max-width: 1000px;
+    background-color: rgb(113, 210, 142); 
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 50px;
+    border-color: rgb(0, 0, 0);
+}
+
+.myWeek5{
+    margin: auto;
+    max-width: 1000px;
+    background-color: rgb(88,193,114); 
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 50px;
+    border-color: rgb(0, 0, 0);
+}
+
+.myWeek7{
+    margin: auto;
+    max-width: 1000px;
+    background-color: #58C199; 
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 50px;
+    border-color: rgb(0, 0, 0);
+}
+
+.myWeek8{
+    margin: auto;
+    max-width: 1000px;
+    background-color: #58C1C1; 
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 50px;
+    border-color: rgb(0, 0, 0);
+}
+
+.myWeek9{
+    margin: auto;
+    max-width: 600px;
+    background-color: #58B4E1; 
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 50px;
+    border-color: rgb(0, 0, 0);
+}
+
+.myWeek10{
+    margin: auto;
+    max-width: 600px;
+    background-color: #58A0FF; 
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 50px;
+    border-color: rgb(0, 0, 0);
+}
+
+.myWeek11{
+    margin: auto;
+    max-width: 600px;
+    background-color: #6785FF; 
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 50px;
+    border-color: rgb(0, 0, 0);
+}
+
+/* Container */
+/* 
+.container {
+    align-content: center;
+    display: flex;
+    flex-flow: wrap;
+    margin: auto;
+    max-width: 1000px; 
+    justify-content: center;
+    padding: 20px;
+}
+.container1 {
+    align-content: center;
+    column-gap: 20px;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    margin-top: 10px;
+    max-width: 1000px; 
+    padding-top: 0px;
+    padding-bottom: 0px;
+}  
+*/
+
+/* Set the appearance of the class, chart */
+
+.chart{
+    background-color:white;
+    border-color: rgb(40, 107, 130);
+    border-radius: 5px; 
+    border-style: solid;
+    border-width: 3px;
+    display: inline-block;
+    margin: auto;
+    margin-bottom: 2.5%;
+    max-width: 1000px;
+    text-align: center;
+    width: 350px;
+}
+
+/* Appearances for particular charts */
+
+.chart2{
+    background-color:white;
+    border-color: rgb(40, 107, 130);
+    border-radius: 5px; 
+    border-style: solid;
+    border-width: 3px;
+    display: inline-block;
+    margin: auto;
+    margin-bottom: 2.5%; 
+    max-width: 1000px;
+    text-align: center;
+    width: 425px;
+}
+
+.chart5_6{
+    background-color:white;
+    border-color: rgb(40, 107, 130);
+    border-radius: 5px; 
+    border-style: solid;
+    border-width: 3px;
+    display: inline-block;
+    margin: auto;
+    margin-bottom: 2.5%; 
+    max-width: 1000px;
+    text-align: center;
+    width: 450px;
+}
+
+.chart7{
+    background-color:white;
+    border-color: rgb(40, 107, 130);
+    border-radius: 5px; 
+    border-style: solid;
+    border-width: 3px;
+    display: inline-block;
+    margin: auto;
+    margin-bottom: 2.5%; 
+    max-width: 1000px;
+    text-align: center;
+    width: 390px;
+}
+
+.chart17{
+    background-color:white;
+    border-color: rgb(40, 107, 130);
+    border-radius: 5px; 
+    border-style: solid;
+    border-width: 3px;
+    display: inline-block;
+    margin: auto;
+    margin-bottom: 2.5%; 
+    max-width: 600px;
+    text-align: center;
+    width: 5000px;
+}
+
+.chart18{
+    background-color:white;
+    border-color: rgb(40, 107, 130);
+    border-radius: 5px; 
+    border-style: solid;
+    border-width: 3px;
+    display: inline-block;
+    margin: auto;
+    margin-bottom: 2.5%; 
+    max-width: 750px;
+    text-align: center;
+    width: 5000px;
+}
+
+.dashboard{
+    background-color:white;
+    border-color: rgb(40, 107, 130);
+    border-radius: 5px; 
+    border-style: solid;
+    border-width: 3px;
+    display: inline-block;
+    margin: auto;
+    margin-bottom: 2.5%; 
+    max-width: 1000px;
+    text-align: center;
+    width: 425px;
+}
+
+/* Griddy */
+
+.grid{
+    display: grid;
+    max-width: 1000px; 
+    grid-column-gap: 1px;
+    grid-row-gap: 3px;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.grid > div{
+    background-color: #ffffff;
+    width: 300px;
+}
+
+.grid2{
+    display: grid;
+    max-width: 1000px; 
+    grid-column-gap: 1px;
+    grid-row-gap: 3px;
+    grid-template-columns: repeat(1,1fr);
+}
+
+.grid2 > div{
+    background-color: #ffffff;
+    width: 300px;
+}
+
+/* Links */
+
+a{
+    color: antiquewhite;
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: relative;
+}
+
+a:link{
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+a:hover {font-size:125%;}
+
+a:visited{
+    color: antiquewhite;
+}
+
+
+a.one{
+    color: antiquewhite;
+    display: inline;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+}
+
+a.one:link {color:#ff0000;}
+a.one:visited {color:#0000ff;}
+a.one:after {color:#0000ff;}
+a.one:hover {font-size:150%; color:#ffcc00;}
+a.one:hover:after {color:#0000ff;}
+
+/* Phone Screen Stuff */
+
+@media only screen and (max-width: 450px) {
+    .grid{
+        display: grid;
+        max-width: 1000px; 
+        grid-column-gap: 1px;
+        grid-row-gap: 3px;
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    .chart2{
+        background-color:white;
+        border-color: rgb(40, 107, 130);
+        border-radius: 5px; 
+        border-style: solid;
+        border-width: 3px;
+        display: inline-block;
+        margin: auto;
+        margin-bottom: 2.5%; 
+        max-width: 1000px;
+        text-align: center;
+        width: 350px;
+    }
+}
+/* 
+@media only screen and (min-width: 250px) {
+    .chart {
+        display: inline-block;
+        grid-column-gap: 10px;
+        grid-row-gap: 40px;
+        grid-template-columns: 100%;
+        justify-content: center !important;
+        margin: 0 auto 0 auto !important; 
+        max-width: 420px; 
+        padding: 0 5 0 5;  
+        text-align: center;
+        z-index: 0;
+    }
+        
+    .chart > div {
+        padding: 10px;
+    }
+    .dashboard {
+      grid-template-columns: 100%;
+      max-width: 420px; 
+      margin: 0 auto 0 auto !important;
+      padding: 0 5 0 5; 
+      grid-column-gap: 10px;
+      grid-row-gap: 40px;
+      text-align: center;
+    }
+  
+    .dashboard > div {
+      padding: 10px;
+    }
+    
+}  
+@media only screen and (min-width: 800px) {
+    .chart{
+      grid-template-columns: 47.5% 47.5%;
+      max-width: 900px; 
+      margin: 0 auto 0 auto !important;
+      padding: 0 5 0 5; 
+      grid-column-gap: 10px;
+      grid-row-gap: 40px;
+      text-align: left;
+    }
+    .chart > div {
+      padding: 10px;
+    }
+} */

@@ -1,0 +1,54 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+
+   "data":{
+    "url":"https://raw.githubusercontent.com/ipkwhite/ipkwhite.github.io/main/Local%20Authority%20Districs-National-England%20topojson.json",
+    "format":{"type":"topojson",
+      "feature":"lad"}},
+
+         "projection":{
+            "type":"mercator"
+          },
+       "mark":{
+        "type": "geoshape",
+        "stroke": "white",
+        "strokeWidth":0},
+
+
+      "transform": [
+        {
+        "lookup": "properties.LAD13NM",
+        "from": {
+          "key": "LAD",
+          "fields": ["Suicide registrations(2021)"],
+          "data": {"url": "https://raw.githubusercontent.com/ipkwhite/ipkwhite.github.io/main/suicides-in-the-uk-2021-v2%20(1).csv"}}
+          }],
+
+    "title": {
+    "text": "England - Suicides in Local Authority Districs",
+    "subtitle":["Source: ONS",""],
+    "subtitleFontStyle":"italic",
+    "subtitleFontSize":10,
+    "anchor": "middle",
+    "color": "black"},
+
+  "width":400,
+  "height":400,
+
+  "config": {
+    "background":"white",
+    "view": {"stroke": "transparent"}},
+
+
+
+      "encoding": {
+
+        "color":{
+          "field":"Suicide registrations(2021)",
+        
+          "type": "quantitative"},
+
+        "tooltip":[
+          {"field":"properties.LAD13NM", "title": "Local Authority District"}, {"field":"Suicide registrations(2021)", "title": "Suicides"}]
+      }
+}

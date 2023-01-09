@@ -1,0 +1,42 @@
+
+{"$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+
+"title": {
+  "text": "LFS unemployment rate UK: Male",
+  "subtitle":"Full-time education, Aged 18-24:%, SA, 1992-2022. Source:ONS",
+    "subtitleFontStyle":"italic",
+    "subtitleFontSize":10,
+    "anchor": "start",
+    "color": "black"},
+
+"data":{
+  
+"url": "https://raw.githubusercontent.com/ipkwhite/ipkwhite.github.io/main/data_ONS_AIYE.json",
+"format" :{
+    "type":"json",
+    "property":"years"
+
+}
+},
+
+
+"height": 200,
+"width": 200,
+ "mark": "line",
+
+"encoding": {
+   "x": {
+     "field": "year",
+     "type": "temporal"
+     },
+      
+    
+
+    "y": {
+      "field": "value",
+      "type": "quantitative",
+      "title": "",
+      "axis": {"grid": false}}
+}
+
+}

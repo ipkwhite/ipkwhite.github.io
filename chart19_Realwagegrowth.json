@@ -1,0 +1,26 @@
+
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {
+    "url": "https://raw.githubusercontent.com/ipkwhite/ipkwhite.github.io/main/UK-%20real%20regular%20and%20total%20pay-clean1.csv"
+  },
+
+  "title": {
+    "text": "Real total pay growth UK ",
+    "subtitle":"2007-2020. Source:ONS",
+      "subtitleFontStyle":"italic",
+      "subtitleFontSize":10,
+      "anchor": "start",
+      "color": "black"},
+
+  "height": 300,
+"width": 300,
+
+  "mark": "line",
+  "encoding": {
+    "x": {"field": "Time", "title":"Year", "type": "temporal", "axis": {"grid": false}},
+    "y": {"field": "Total pay (real)", "type": "quantitative", "title": "Total pay growth (real)"}
+
+  }
+
+  }

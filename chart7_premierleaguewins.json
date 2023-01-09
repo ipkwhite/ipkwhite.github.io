@@ -1,0 +1,41 @@
+
+{"$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+
+"title": {
+    "text": "Premier league match wins by team",
+    "subtitle":"Total match wins. Source:premierleague.com",
+    "subtitleFontStyle":"italic",
+    "subtitleFontSize":10,
+    "anchor": "start",
+    "color": "black"},
+
+"data":{
+  
+"url": "https://raw.githubusercontent.com/ipkwhite/ipkwhite.github.io/main/premierleague2ins.csv"
+
+},
+
+
+"height": 300,
+"width": "container",
+"mark": {
+  "type": "bar",
+  "color": "#0c01ad"},
+
+"encoding": {
+   "x": {
+     "field": "Club",
+     "type": "nominal",
+      "sort":"-y"
+     },
+      
+    
+
+    "y": {
+      "field": "wins",
+      "type": "quantitative",
+      "title": "Match wins",
+      "axis": {"grid": false}}
+}
+
+}
