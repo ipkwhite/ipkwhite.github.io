@@ -1,0 +1,92 @@
+
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": {
+      "text": "Regression of health care expenditure p/capita on life expectancy",
+      "subtitle": "Source: WorldBank. 2019",
+      "subtitleFontSize": 10,
+      "subtitleFontStyle": "italic",
+      "anchor": "start"
+    },
+    "height": 300,
+    "width": 300,
+    "data": {
+      "url": "https://raw.githubusercontent.com/ipkwhite/ipkwhite.github.io/main/Healthcarecosts_Lifeexpectancy.csv"
+    },
+    "layer": [
+      {
+        "mark": {
+          "type": "point",
+          "color":"Blue",
+          "opacity": 0.3, "size": 70,
+          "filled": true
+        },
+        "encoding": {
+          "x": {
+            "field": "Life expec at birth (2019)", 
+            "type": "quantitative",
+            "title": "Life expectancy at birth (years)",
+            "axis":{"grid": false}
+          },
+          "y": {
+            "field": "Healthcare costs(2019)",
+            "type": "quantitative",
+            "axis":{"grid": false},
+            "title": "Healthcare expenditure per capita"
+          }, 
+          "tooltip":[
+            {"field":"Country", "type": "nominal"},        {"field":"Life expec at birth (2019)", "title": "Life expectancy at birth (years)"},
+            {"field":"Healthcare costs(2019)"}]
+        }
+      },
+      {
+        "mark": {
+          "type": "line",
+          "color": "black"
+        },
+        "transform": [
+          {
+            "regression": "Healthcare costs(2019)",
+            "on": "Life expec at birth (2019)"
+          }
+        ],
+        "encoding": {
+          "x": {
+            "field": "Life expec at birth (2019)",
+            "type": "quantitative"
+          },
+          "y": {
+            "field": "Healthcare costs(2019)",
+            "type": "quantitative"
+          }
+
+
+
+
+
+
+        }
+      },
+  
+      {
+        "transform": [
+          {
+            "regression": "Healthcare costs(2019)",
+            "on": "Life expec at birth (2019)",
+            "params": true
+          },
+          {"calculate": "'R²: '+format(datum.rSquared, '.2f')", "as": "R2"}
+        ],
+        "mark": {
+          "type": "text",
+          "color": "Red",
+          "x": "width",
+          "align": "right",
+          "y": -10
+        },
+        "encoding": {
+          "text": {"type": "nominal", "field": "R2"}
+        }
+      }
+    ]
+  }

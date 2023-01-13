@@ -1,0 +1,76 @@
+
+  {"$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  
+  
+  "data": {
+    "url": "https://raw.githubusercontent.com/ipkwhite/ipkwhite.github.io/main/DEP_RATIO_GLOBAL.csv"
+  },
+
+  "title": {
+    "text": "Dependancy ratio's across time",
+    "subtitle":"1950-2021. Source: UN. Japan = Red. India=Green",
+    "subtitleFontStyle":"italic",
+    "subtitleFontSize":10,
+    "anchor": "start",
+    "color": "black"
+  },
+
+  "height": 300,
+  "width": 300,
+  
+  "mark": {"type": "line", "width":"1"},
+
+  "transform": [{"filter": {"selection": "Region"}}],
+  
+  "selection": {
+    "Region": {
+      "type": "single",
+      "fields": ["Region"],
+      "bind": {
+        "input": "select",
+        "options": [
+          null,
+          "WORLD",
+          "EUROPE",
+          "NORTHERN AMERICA",
+          "High-income countries",
+          "Middle-income countries",
+          "Low-income countries",
+          "China",
+          "Denmark",
+          "Germany",
+          "India",
+          "Italy",
+          "Japan",
+          "Pakistan",
+          "South Africa",
+          "Spain",
+          "Sub-Saharan Africa",
+          "Sudan",
+          "Sweden",
+          "United Kingdom"
+
+        ],
+        "name": "Select Region"
+      }
+    }
+  },
+
+  "encoding": {
+    "x": {"field": "Year", "type": "temporal", "title": "Year"},
+    
+    "y": {
+      "field": "Dependancy ratio",
+      "type": "quantitative",
+      "title": "Dependancy ratio (%)"
+    },
+    
+      
+    "color": {
+      "field": "Region", 
+      "type": "nominal",
+      "legend": null,
+      "scale": {"range": ["#C1D0E6", "#C1D0E6", "#C1D0E6", "#C1D0E6", "#C1D0E6", "green", "#C1D0E6", "red", "#C1D0E6", "#C1D0E6", "#C1D0E6", "#C1D0E6", "#C1D0E6", "#C1D0E6", "#C1D0E6", "#C1D0E6", "#C1D0E6","#C1D0E6", "#C1D0E6"]}
+    }
+  }
+}

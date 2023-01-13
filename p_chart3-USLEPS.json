@@ -1,0 +1,84 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "",
+  "title": {
+    "text": "Regression of State and local pension spending p/capita on Life expectancy (US States)",
+    "subtitle": "US states. Sources: usgovernmentspending.com. wikipedia.org (2019)",
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "anchor": "start",
+    "color": "black"
+  },
+  "data": {
+    "url": "https://raw.githubusercontent.com/ipkwhite/ipkwhite.github.io/main/US_LEPS.csv"
+  },
+  
+  "height": 500,
+  "width": 500,
+  
+  "layer": [
+    {
+      "params": [
+    {
+      "select":"interval",
+      "bind":"scales",
+      "name": "grid"
+    }
+  ],
+      "mark": {"type": "point", "filled": true, "opacity": 0.5, "size": 50},
+      "encoding": {
+        "x": {"field": "Life Expectancy 2019", "type": "quantitative", "title": "Life expectancy",
+        "scale": {"domain": [74,83]}
+         
+        },
+        "y": {
+          "field": "State and local Spending p/capita",
+          "type": "quantitative",
+          "title": "State and local pension spending p/capita"
+          
+        },
+
+        "color": {
+          "field": "State",
+          "type": "nominal",
+          "scale": {"range": ["#00FFFF", "#FF4040", "#7FFF00", "#B23AEE"]}
+           
+        },
+       
+        "tooltip": [
+          {
+            "field": "State",
+            "type": "nominal",
+            "title": "State "
+          },
+          {"field": "State and local Spending p/capita", "type": "quantitative",
+          "title":"State and local Spending p/capita ($)"
+          },
+ {
+            "field": "Life Expectancy 2019",
+            "type": "nominal",
+            "title": "Life expectancy "
+
+          }
+
+  
+
+
+        ]
+      }
+    },
+
+
+    {
+      "mark": {"type": "line", "color": "#0000006c"},
+      "transform": [{"regression": "State and local Spending p/capita", "on": "Life Expectancy 2019"}],
+      "encoding": {
+        "x": {"field": "Life Expectancy 2019", "type": "quantitative"},
+        "y": {"field": "State and local Spending p/capita", "type": "quantitative"}
+      
+      }
+    }
+  ],
+
+  "config": {}
+}

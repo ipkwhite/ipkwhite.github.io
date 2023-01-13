@@ -19,6 +19,9 @@
   
       "title": {
       "text": "England - Local Authority Districs ",
+      "subtitle": "mercator projection",
+      "subtitleFontStyle":"italic",
+      "subtitleFontSize":10,
       "anchor": "middle",
       "color": "black"},
   

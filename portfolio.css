@@ -2,8 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
 
 
-/* Set the background color for my page: */
-
 /* Book on colour = Joseph Albers - Interaction of Colour */
 
  /* BUTTONS */
@@ -21,7 +19,7 @@
     border-style: solid;
     border-radius: 10px;
 
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Merriweather', sans-serif;
     font-weight:700;
     color:white;
     
@@ -41,6 +39,67 @@
     border-style: solid;
    
 }
+
+.linkcolab{
+    background-color:   rgb(182, 211, 255);
+
+    padding: 1px;
+    border:0px;
+    border-color:  rgba(0, 0, 0, 0.568);
+    border-style: solid;
+    border-radius: 2px;
+    align-items: center;
+   
+    font-family:'Merriweather', sans-serif;
+    font-variant: small-caps;
+    font-weight:700;
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+ }
+
+ .linkcolab1{
+    background-color:  rgb(182, 211, 255);
+
+    padding: 1px;
+    margin-left: 145%;
+    margin-right: 10%;
+    border:0px;
+    border-color:  rgba(0, 0, 0, 0.568);
+    border-style: solid;
+    border-radius: 2px;
+   
+    font-family:'Merriweather', sans-serif;
+    font-variant: small-caps;
+    font-weight:700;
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+ }
+
+
+
+
+ .linkcolab:hover{
+
+    background-color: rgb(182, 211, 255);
+    color:white;
+    border:0px;
+    border-color:rgb(0, 0, 0);
+    border-style: solid;
+    
+}
+
+.linkcolab1:hover{
+
+    background-color:rgb(182, 211, 255);
+    color:white;
+    border:0px;
+    border-color:rgb(0, 0, 0);
+    border-style: solid;
+    
+}
+
+
+/* Set the background color for my page: */
 
 body{
     background-color: rgb(202, 202, 202);
@@ -75,12 +134,14 @@ h1, h3, p{
 .myWeek1{
     margin: auto;
     max-width: 100%;
-    background-color: rgb(182, 211, 255);
+    background-color:rgb(182, 211, 255);
     border-width: 7px;
     border-style: solid;
     border-radius: 10px;
     border-color: rgb(61, 61, 61);
-    width: 1000px
+    width: 1000px;
+    margin-top: 25px;
+    
 }
 
 .chart{
@@ -145,11 +206,12 @@ h1, h3, p{
     border-width: 3px;
     width:auto;
         height:auto;  
-       align-items:center;
+      
        max-width: 100%;
        text-align:center;
        display: inline-block;
-       align-items:center
+       margin-left: 32.5%;
+    margin-right: 10%;
 }
 
 .dashboard_charts{
@@ -231,7 +293,8 @@ h1, h3, p{
        margin-right: 10%;
        text-align:center;
        display: inline-block;
-       align-items:center
+       margin-left: 27.5%;
+    margin-right: 10%;
     
 }
 #Chart18{
@@ -283,7 +346,21 @@ h1, h3, p{
     
 }
 
-
+#Chart21{
+    border-color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    border-width: 3px;
+    width:375px;
+    width:auto;
+    height:auto; 
+       margin-left: 27.5%;
+       margin-right: 10%;
+       text-align:center;
+       display: inline-block;
+      
+    
+}
 
 
 #Chart22{
@@ -298,8 +375,36 @@ h1, h3, p{
        margin-right: 10%;
        text-align:center;
        display: inline-block;
-       align-items:center
-       
+      
     
 }
+
+.image{
+    border:5px;
+    border-color:rgb(0, 0, 0);
+    border-style: solid;
+    width: 480px;
+    height:365px;
+    border-radius: 10px;
+    margin-left: 26%;
+    margin-right: 10%;
+    border-width: 3px;
+    background-color: rgb(255, 255, 255);
+    
+}
+
+.image2{
+    border:5px;
+    border-color:rgb(0, 0, 0);
+    border-style: solid;
+    width: 420px;
+    height:300px;
+    border-radius: 10px;
+    margin-left: 28%;
+    margin-right: 10%;
+    border-width: 3px;
+    background-color: rgb(255, 255, 255);
+    
+}
+
 

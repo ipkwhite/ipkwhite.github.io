@@ -1,0 +1,74 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": {
+      "text": "Japan population by agre group over time",
+      "subtitle": "Years 1960,1990,2020. Source: UN",
+      "fontSize": 14,
+      "subtitleFontStyle": "italic",
+      "subtitleFontSize": 10,
+      "anchor": "start",
+      "color": "#000000",
+      "subtitleColor": "#000000"
+    },
+    "data": {
+      "values":[{"Year": 1960, "Age range": "0-4", "population": "7867"}, {"Year": 1960, "Age range": "5-9", "population": "9045"}, {"Year": 1960, "Age range": "10-14", "population": "10950"}, {"Year": 1960, "Age range": "15-19", "population": "9461"}, {"Year": 1960, "Age range": "20-24", "population": "8566"}, {"Year": 1960, "Age range": "25-29", "population": "8441"}, {"Year": 1960, "Age range": "30-34", "population": "7703"}, {"Year": 1960, "Age range": "35-39", "population": "6172"}, {"Year": 1960, "Age range": "40-44", "population": "5052"}, {"Year": 1960, "Age range": "45-49", "population": "4859"}, {"Year": 1960, "Age range": "50-54", "population": "4237"}, {"Year": 1960, "Age range": "55-59", "population": "3662"}, {"Year": 1960, "Age range": "60-64", "population": "2972"}, {"Year": 1960, "Age range": "65-69", "population": "2206"}, {"Year": 1960, "Age range": "70-74", "population": "1608"}, {"Year": 1960, "Age range": "75-79", "population": "985"}, {"Year": 1960, "Age range": "80-84", "population": "474"}, {"Year": 1960, "Age range": "85-89", "population": "161"}, {"Year": 1960, "Age range": "90-94", "population": "38"}, {"Year": 1960, "Age range": "95-99", "population": "5"}, {"Year": 1960, "Age range": "100+", "population": "0"}, {"Year": 1990, "Age range": "0-4", "population": "6441"}, {"Year": 1990, "Age range": "5-9", "population": "7192"}, {"Year": 1990, "Age range": "10-14", "population": "8474"}, {"Year": 1990, "Age range": "15-19", "population": "9953"}, {"Year": 1990, "Age range": "20-24", "population": "8850"}, {"Year": 1990, "Age range": "25-29", "population": "8200"}, {"Year": 1990, "Age range": "30-34", "population": "7834"}, {"Year": 1990, "Age range": "35-39", "population": "8891"}, {"Year": 1990, "Age range": "40-44", "population": "10705"}, {"Year": 1990, "Age range": "45-49", "population": "9096"}, {"Year": 1990, "Age range": "50-54", "population": "8136"}, {"Year": 1990, "Age range": "55-59", "population": "7763"}, {"Year": 1990, "Age range": "60-64", "population": "6815"}, {"Year": 1990, "Age range": "65-69", "population": "5215"}, {"Year": 1990, "Age range": "70-74", "population": "3869"}, {"Year": 1990, "Age range": "75-79", "population": "3115"}, {"Year": 1990, "Age range": "80-84", "population": "1919"}, {"Year": 1990, "Age range": "85-89", "population": "874"}, {"Year": 1990, "Age range": "90-94", "population": "283"}, {"Year": 1990, "Age range": "95-99", "population": "56"}, {"Year": 1990, "Age range": "100+", "population": "6"}, {"Year": 2020, "Age range": "0-4", "population": "4434"}, {"Year": 2020, "Age range": "5-9", "population": "5091"}, {"Year": 2020, "Age range": "10-14", "population": "5399"}, {"Year": 2020, "Age range": "15-19", "population": "5704"}, {"Year": 2020, "Age range": "20-24", "population": "6037"}, {"Year": 2020, "Age range": "25-29", "population": "6094"}, {"Year": 2020, "Age range": "30-34", "population": "6517"}, {"Year": 2020, "Age range": "35-39", "population": "7178"}, {"Year": 2020, "Age range": "40-44", "population": "8390"}, {"Year": 2020, "Age range": "45-49", "population": "9670"}, {"Year": 2020, "Age range": "50-54", "population": "8507"}, {"Year": 2020, "Age range": "55-59", "population": "7827"}, {"Year": 2020, "Age range": "60-64", "population": "7345"}, {"Year": 2020, "Age range": "65-69", "population": "8122"}, {"Year": 2020, "Age range": "70-74", "population": "9311"}, {"Year": 2020, "Age range": "75-79", "population": "7272"}, {"Year": 2020, "Age range": "80-84", "population": "5584"}, {"Year": 2020, "Age range": "85-89", "population": "3903"}, {"Year": 2020, "Age range": "90-94", "population": "2043"}, {"Year": 2020, "Age range": "95-99", "population": "690"}, {"Year": 2020, "Age range": "100+", "population": "127"}]
+     
+    },
+  
+    "height": 350,
+    "width": 300,
+    "mark": {"type": "bar"},
+    "transform": [{"filter": "datum.Year==Year"}],
+    "params": [
+      {
+        "name": "Year", 
+        "value": 2020,
+        "bind": {
+          "input": "range",
+          "min": 1960,
+          "max": 2020,
+          "step": 30,
+          "name": "Select year:"
+        }
+      }
+    ],
+    "encoding": {
+      "y": {
+        "field": "Age range",
+        "type": "nominal",
+        "title": "Age range (years)",
+        "axis": {"grid": false, "labelFontSize": 11},
+        "sort": ""
+      },
+      "x": {
+        "field": "population",
+        "type": "quantitative",
+        "title": "Population (millions)",
+        "axis": {
+          "grid": false,
+          "titleColor": "black",
+          "titleFontSize": 13,
+          "titleFontWeight": "normal",
+          "labelFontSize": 11
+        }
+      },
+  
+     "color": {
+        "field": "Age range",
+        "type": "nominal",
+        "title": "Age range group",
+        "scale": {"scheme": "set3"},
+        "legend": "right",
+        "sort": ""
+      },
+  
+      "tooltip": [
+        {"field": "population", 
+        "type": "quantitative", 
+        "title": "population (millions)"},
+        {"field": "Age range", 
+        "type": "nominal", 
+        "title": "Age range (years)"}
+      ]
+    }
+  }

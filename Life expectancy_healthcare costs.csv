@@ -22,7 +22,7 @@ Burkina Faso,60.039,42.3445282
 Bangladesh,72.806,45.85716248
 Bulgaria,75.11219512,697.8963623
 Bahrain,80.019,940.3956909
-Bahamas, The,71.205,2004.616333
+"Bahamas, The",71.205,2004.616333
 Bosnia and Herzegovina,77.241,553.822937
 Belarus,74.22682927,399.3970947
 Belize,73.931,293.4125977
@@ -42,8 +42,8 @@ Chile,80.326,1375.802979
 China,77.968,535.1333618
 Cote d'Ivoire,59.319,75.08779144
 Cameroon,61.584,53.99584961
-Congo, Dem Rep.,60.276,20.57073212
-Congo, Rep,62.747,48.55877304
+"Congo, Dem. Rep.",60.276,20.57073212
+"Congo, Rep.",62.747,48.55877304
 Colombia,76.752,495.3297119
 Comoros,64.068,72.32379913
 Cabo Verde,76.004,177.8902741
@@ -66,7 +66,7 @@ East Asia & Pacific,76.79700787,750.7474785
 Europe & Central Asia (excluding high income),73.9038168,436.6473719
 Europe & Central Asia,78.1717263,2334.125343
 Ecuador,77.297,486.492157
-Egypt, Arab Rep.,71.358,149.8403168
+"Egypt, Arab Rep.",71.358,149.8403168
 Euro area,82.32775602,4001.053619
 Eritrea,67.3,25.2679348
 Spain,83.83170732,2711.192871
@@ -78,14 +78,14 @@ Finland,81.98292683,4450.302734
 Fiji,67.893,235.6750183
 France,82.82682927,4491.735352
 Faroe Islands,82.79268293,
-Micronesia, Fed Sts,71.077,415.1982727
+"Micronesia, Fed. Sts.",71.077,415.1982727
 Gabon,66.603,215.0191498
 United Kingdom,81.20487805,4312.88916
 Georgia,73.47,291.1220398
 Ghana,64.74,75.28166199
 Gibraltar,82.363,
 Guinea,59.72,43.03782272
-Gambia, The,63.755,29.72580338
+"Gambia, The",63.755,29.72580338
 Guinea-Bissau,60.882,62.57557678
 Equatorial Guinea,61.644,254.891098
 Greece,81.63902439,1500.594971
@@ -95,7 +95,7 @@ Guatemala,73.129,271.0212708
 Guam,77.717,
 Guyana,69.124,325.8851624
 High income,80.97440042,5635.453582
-Hong Kong SAR, China,85.07804878,
+"Hong Kong SAR, China",85.07804878,
 Honduras,72.881,187.5543366
 Heavily indebted poor countries (HIPC),63.33805695,46.28114754
 Croatia,78.42439024,1040.085693
@@ -109,8 +109,9 @@ Indonesia,70.518,120.1249619
 IDA only,65.44156243,46.67583023
 Isle of Man,80.737,
 India,70.91,63.74832153
+Not classified,,
 Ireland,82.70243902,5428.588867
-Iran, Islamic Rep,76.103,470.4346008
+"Iran, Islamic Rep.",76.103,470.4346008
 Iraq,71.576,253.3146362
 Iceland,83.16341463,6274.959473
 Israel,82.80487805,3456.386963
@@ -123,15 +124,15 @@ Kenya,62.943,83.41162872
 Kyrgyz Republic,71.6,62.14477539
 Cambodia,70.692,113.3104401
 Kiribati,67.15,172.3057404
-St Kitts and Nevis,,1087.801025
-Korea, Rep.,83.22682927,2624.533203
+St. Kitts and Nevis,,1087.801025
+"Korea, Rep.",83.22682927,2624.533203
 Kuwait,79.685,1758.674194
 Latin America & Caribbean (excluding high income),74.95417603,643.1425559
 Lao PDR,68.138,68.22131348
 Lebanon,79.236,663.0510864
 Liberia,61.104,52.56287003
 Libya,72.463,
-St Lucia,73.445,502.1817017
+St. Lucia,73.445,502.1817017
 Latin America & Caribbean,75.03874405,662.5800667
 Least developed countries: UN classification,65.15557375,42.70030809
 Low income,63.33679237,34.8371018
@@ -144,8 +145,8 @@ Late-demographic dividend,76.99290674,575.4738885
 Lithuania,76.28292683,1369.979492
 Luxembourg,82.63902439,6220.741211
 Latvia,75.38780488,1166.797852
-Macao SAR, China,84.978,
-St Martin (French part),79.983,
+"Macao SAR, China",84.978,
+St. Martin (French part),79.983,
 Morocco,74.27,174.2237701
 Monaco,,2905.84375
 Moldova,70.935,284.3071289
@@ -191,7 +192,7 @@ Papua New Guinea,65.474,65.08071899
 Poland,77.90487805,1014.038208
 Pre-demographic dividend,60.72165737,60.02097759
 Puerto Rico,79.063,
-Korea, Dem. People's Rep.,73.198,
+"Korea, Dem. People's Rep.",73.198,
 Portugal,81.67560976,2221.439209
 Paraguay,73.621,388.3932495
 West Bank and Gaza,75.241,
@@ -252,7 +253,7 @@ Uruguay,77.508,1660.952881
 United States,78.78780488,10921.0127
 Uzbekistan,71.344,98.57316589
 St. Vincent and the Grenadines,72.835,354.8086548
-Venezuela, RB,72.161,338.8253784
+"Venezuela, RB",72.161,338.8253784
 British Virgin Islands,75.863,
 Virgin Islands (U.S.),79.66829268,
 Vietnam,74.093,180.7181854
@@ -260,7 +261,7 @@ Vanuatu,69.877,104.2496109
 World,72.97684987,1115.00873
 Samoa,72.157,271.9157715
 Kosovo,79.022,
-Yemen, Rep.,65.092,
+"Yemen, Rep.",65.092,
 South Africa,66.175,546.6884155
 Zambia,62.793,69.32437897
 Zimbabwe,61.292,103.0282722
