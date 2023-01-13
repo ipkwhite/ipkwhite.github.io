@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+
+<!---Data Science 2022-Imran Khan-White -->
+
+<html lang="en">
+
+
+
+
+<!-- //////////////  Head ///////////// -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- Title for the page -->
+    <title>Document</title>
+
+    <!-- Link to my style sheet -->
+    <link rel="stylesheet" href="project.css">
+
+    <!--The next three lines allow the Vega embed-->
+    <script src="https://cdn.jsdelivr.net/npm/vega@5.17.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@4.17.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.12.2"></script>
+</head>
+
+<div class="wrap">    
+
+
+    <a href="Portfolio.html" id="link3">Portfolio</a>
+    <a href="index.html" id="link3">Home Page</a>
+
+
+   
+
+</div>
+
+
+<body>
+
+    <!-- A div that contains a group of items for project. Can be useful for setting background colours etc.  -->
+
+    <div class="project">
+        <h1>My Project</h1>
+        <h3><u>The economic ramifications of aging populations</u></h3>
+
+        <h3>Aims</h3>
+        <p>Many populations globally, espescially in the developed world are rapidly aging and this precarious population structure is hypothesized to bring with it various economic issues. The population pyramid below illustrates this occurance for Japan over the years, perhaps the most obtuse example of all economies.</p>
+        
+
+        <h3>Regression of Health care expenditure on life expectancy at birth.</h3>
+        <p>This regression shows the effect of life expectancy at birth on health-care expenditure.  The R² value is 0.37, which suggests weak correlation.</p>
+        <div class="chart" id="Chart21"></div>
+        <p><a href="https://colab.research.google.com/drive/1N9vNA4PNocuobcZhAWSr02zBaLrmhLT3?usp=sharing-" class="linkcolab" id="link4" target="_blank">Colab</a></p>
+        
+       <div class="chart" id="Chart22"></div>
+       <p>Data from the UN was already relatively clean, I just had to calculate the dependancy ratios in excel, move table to top left corner, and then I cleaned the data in colab;</a></p>
+        <p><a href="https://colab.research.google.com/drive/13ZiTDnBWzZ-AjSL1xPCbylGY91zc01l3?usp=sharing-" class="linkcolab" id="link4"target="_blank">Colab</a></p> 
+
+       <div class="chart" id="Chart1"></div>
+       
+       <p><a href="https://colab.research.google.com/drive/1nGzGDn7SijKsCKeGegwweWuII4UvtLC9?usp=sharing" class="linkcolab" id="link4"target="_blank">Colab</a></p>
+   
+       <div class="chart" id="Chart2"></div>
+     
+        <p><a href="https://colab.research.google.com/drive/12pwSziySSVoE0Hbr6l8kuys9c5NGqCKQ?usp=sharing class=" class="linkcolab" id="link4"target="_blank">Colab</a></p>
+        <p>
+
+         <div class="chart" id="Chart3"></div>
+     
+       <p><a href="https://colab.research.google.com/drive/1SHIre2Q-iPnZ_SBfLCBROCahLSdUmHwP?usp=sharing" class="linkcolab" id="link4"target="_blank">Colab</a></p>
+        <p>R²=0.09</p>
+
+    </div>
+  
+
+    
+
+
+    
+
+
+</div> 
+
+
+
+  
+
+  
+  
+
+
+</body>
+
+
+<script>
+    //Define charts:
+    var myChart1 = "p_chart1_depratio.json";
+    var myChart2 = "p_chart2_PP_JAP.json";
+    var myChart3 = "p_chart3-USLEPS.json";
+    var myChart4 = "chart4_IMFLendingtoGDP.json";
+    var myChart5 = "chart5_Real_GDP_LT_Forecasts_area.json";
+    var myChart6 = "chart6_Real_GDP_LT_Forecasts_line.json";
+    var myChart7 = "chart7_premierleaguewins.json";
+    var myChart8 = "chart8_UE1.json";
+    var myChart9 = "chart9_UE2.json";
+    var myChart10 = "chart10_UE3.json";
+    var myChart11 = "chart11_UE4.json";
+    var myChart12 = "chart12_UE5.json";
+    var myChart13 = "chart13_UE6.json";
+    var myChart14 = "chart14_UE7.json";
+    var myChart15 = "chart15_UE8.json";
+    var myChart16 = "chart16_UE9.json";
+    var myChart17 = "chart17_Map_LAD_UK_TOPO.json";
+    var myChart18 = "chart18_Map_LAD_UK_choropleth.json";
+    var myChart19 = "chart19_Realwagegrowth.json";
+    var myChart20 = "chart20_Unions.json";
+    var myChart21 = "chart21_HCE_LE_reg.json";
+    var myChart22 = "chart22_AgePopUK.json";
+    var myChart23 = "";
+    var myChart24 = "";
+    // Embed charts:
+    vegaEmbed('#Chart1', myChart1);
+    vegaEmbed('#Chart2', myChart2);
+    vegaEmbed('#Chart3', myChart3);
+    vegaEmbed('#Chart4', myChart4);
+    vegaEmbed('#Chart5', myChart5);
+    vegaEmbed('#Chart6', myChart6);
+    vegaEmbed('#Chart7', myChart7);
+    vegaEmbed('#Chart8', myChart8);
+    vegaEmbed('#Chart9', myChart9);
+    vegaEmbed('#Chart10', myChart10);
+    vegaEmbed('#Chart11', myChart11);
+    vegaEmbed('#Chart12', myChart12);
+    vegaEmbed('#Chart13', myChart13);
+    vegaEmbed('#Chart14', myChart14);
+    vegaEmbed('#Chart15', myChart15);
+    vegaEmbed('#Chart16', myChart16);
+    vegaEmbed('#Chart17', myChart17);
+    vegaEmbed('#Chart18', myChart18);
+    vegaEmbed('#Chart19', myChart19);
+    vegaEmbed('#Chart20', myChart20);
+    vegaEmbed('#Chart21', myChart21);
+    vegaEmbed('#Chart22', myChart22);
+    vegaEmbed('#Chart23', myChart23);
+    vegaEmbed('#Chart24', myChart24);
+</script>
+
+
+
+</html>
+
+
+
+
+
+  
