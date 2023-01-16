@@ -19,7 +19,7 @@
   "mark": "line",
   "encoding": {
     "x": {"field": "Time", "title":"Year", "type": "temporal", "axis": {"grid": false}},
-    "y": {"field": "Total pay (real)", "type": "quantitative", "title": "Total pay growth (real)"}
+    "y": {"field": "Total pay (real)","scale": {"zero": false}, "type": "quantitative", "title": "Total pay growth (real)"}
 
   }
 
