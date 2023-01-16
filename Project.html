@@ -112,9 +112,18 @@
         </p>
         <p>I utilised supervised learning for this regression but coded the chart in Vega-lite to permit interactivity. Initially I tried scraping pension spending data from ‘federal reserve’, but I got a ‘HTML restricted’ error, so I had to find another source. </p>
 
-<p>Given life expectancy is a primary cause of ageing populations, I expected a higher value than the calculated R² of 0.09 which is a very weak correlation. Democrat-aligned states provide more funding for pensions than republican states, and likely dilutes the impact of life expectancy here (1).
+<p>Given life expectancy is a primary cause of ageing populations, I expected a higher value than the calculated R² of 0.09 which is a very weak correlation. Democrat-aligned states provide more funding for pensions than republican states, and likely dilutes the impact of life expectancy here¹.
   After some states and life expectancy values in the table post-cleaning, there were numbers in square brackets, and I could only remove the numbers not the brackets, so I had to download the semi-cleaned table to finish in excel. Life expectancies were always between 74 and 83, so initially all the points were in a small area. I fixed this by both adding a zoom function and setting the domain between 74 and 83.
   </p>
+
+
+  <h3>Data</h3>
+    <p>All the sources I used are referenced both in-chart and in the section below. I cleaned and merged all datasets in python, though occasionally utilised excel for issues I couldn’t solve by coding.  When data was missing, I used ‘df.drop(na)’ and when I needed to drop more columns than I was keeping so I used ‘df=df[[‘’]]’.
+    </p>
+
+<h3>Conclusion</h3>
+
+<p>In conclusion, birth rates in many developing nations still have a lot of room to shrink, and life expectancies to increase and within the next century we will see the globe rapidly ageing. Dependency ratios will rise, creating issues with tax collection from a shrinking working population and thus public funding for the ever-increasing need for age-related expenditure. It is likely that this problem could derail the growth of some developing nations, as the global consequences unfold.</p>
 
     </div> 
 
@@ -149,6 +158,9 @@
         <a href="https://en.wikipedia.org/wiki/List_of_U.S._states_and_territories_by_life_expectancy" class="linksource" id="linksource7"target="_blank">(7)Wikipedia
         <a href="https://www.usgovernmentspending.com/compare_state_spending_2019m00a" class="linksource" id="linksource7"target="_blank">(7)www.usgovernmentspending.com</a>
       </p>
+
+      <h3>Footnotes; </h3>
+      <p><a href="https://www.the-american-interest.com/2016/12/16/blue-states-have-bigger-pension-debts-than-red-states/" class="linksource" id="linksource1"target="_blank">(1)the-american-interest.com</a>
 
 
 

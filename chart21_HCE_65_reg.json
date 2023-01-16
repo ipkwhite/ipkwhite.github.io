@@ -8,8 +8,8 @@
     "subtitleFontStyle": "italic",
     "anchor": "start"
   },
-  "height": 300,
-  "width": 300,
+  "height": 400,
+  "width": 400,
   "data": {
     "url": "https://raw.githubusercontent.com/ipkwhite/ipkwhite.github.io/main/Healthcarecosts_%2B65_clean%20(1).csv"
   },

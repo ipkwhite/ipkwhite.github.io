@@ -227,8 +227,23 @@ h1, h3, p{
 
 #Chart2{
 
-    width:710px;
+    width:auto;
 
+
+
+}
+
+#Chart3{
+
+    background-color:#2ea4f3;
+
+
+}
+
+#Chart4{
+
+
+background-color:#2ea4f3;
 
 
 }

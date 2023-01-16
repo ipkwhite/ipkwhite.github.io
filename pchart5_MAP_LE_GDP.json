@@ -5,14 +5,14 @@
     "text": "The changes in World Life expectancy at birth (years) across time",
     "subtitle":"1960-2020. Source: WorldBank",
     "subtitleFontStyle": "italic",
-    "subtitleFontSize": 11,
+    "subtitleFontSize": 10,
     "anchor": "start",
     "color": "black"
   
   },
   "height": 400,
   "width": "container",
-  "background": "#2ea4f3b4",
+  "background": "#2ea4f3",
 
 
   "data": {
@@ -65,13 +65,13 @@
 "encoding": {
  "color": {"field":"Life expectancy", "type":"quantitative",
 
-      "field": "Life expectancy",
+      "fields":"Life expectancy",
 
-      "legend": {"title": "Life expectancy", "orient": "right", "direction": "vertical"},
+      "legend":{"title": "Life expectancy", "orient": "right", "direction": "vertical"},
 
-      "type": "quantitative",
+      "types":"quantitative",
 
-      "scale": {"scheme": "darkgreen"}
+      "scale":{"scheme": "darkgreen"}
 
     
 

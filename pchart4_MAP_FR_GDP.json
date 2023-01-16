@@ -5,14 +5,15 @@
     "text": "The changes in world Fertility rates (Births per woman) across time",
     "subtitle":" 1960-2020. Source: WorldBank",
     "subtitleFontStyle": "italic",
-    "subtitleFontSize": 11,
+    "subtitleFontSize": 10,
     "anchor": "start",
     "color": "black"
   
   },
   "height": 400,
   "width": "container",
-  "background": "#2ea4f3b4",
+  "background": "#2ea4f3",
+  
 
   "data": {
     "url": "https://raw.githubusercontent.com/ipkwhite/ipkwhite.github.io/main/GDP_FR_CLEAN_final.csv"
