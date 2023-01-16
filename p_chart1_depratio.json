@@ -8,14 +8,14 @@
 
   "title": {
     "text": "Dependancy ratio's across time",
-    "subtitle":"1950-2021. Source: UN. Japan = Red. India=Green",
+    "subtitle":"1950-2021. Source: UN. Japan = Red. China=Green",
     "subtitleFontStyle":"italic",
     "subtitleFontSize":10,
     "anchor": "start",
     "color": "black"
   },
 
-  "height": 300,
+  "height": 350,
   "width": "container",
   
   "mark": {"type": "line", "width":"1"},
@@ -69,8 +69,8 @@
     "color": {
       "field": "Region", 
       "type": "nominal",
-      "legend": null,
-      "scale": {"range": ["#C1D0E6", "#C1D0E6", "#C1D0E6", "#C1D0E6", "#C1D0E6", "green", "#C1D0E6", "red", "#C1D0E6", "#C1D0E6", "#C1D0E6", "#C1D0E6", "#C1D0E6", "#C1D0E6", "#C1D0E6", "#C1D0E6", "#C1D0E6","#C1D0E6", "#C1D0E6"]}
+   "legend": null,
+      "scale": {"range": ["green", "#C1D0E6", "#C1D0E6", "#C1D0E6", "#C1D0E6", "#C1D0E6", "#C1D0E6", "red", "#C1D0E6", "#C1D0E6", "#C1D0E6", "#C1D0E6", "#C1D0E6", "#C1D0E6", "#C1D0E6","#C1D0E6","#C1D0E6","#C1D0E6","#C1D0E6"]}
     }
   }
 }
