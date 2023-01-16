@@ -233,20 +233,27 @@ h1, h3, p{
 
 }
 
-#Chart3{
-
+.chart34{
+   
+    border-color: rgb(0, 0, 0);
+    border-radius: 5px; 
+    border-style: solid;
+    border-width: 3px;
     background-color:#2ea4f3;
+    display: inline-block;
+    margin: auto;
+    margin-bottom: 2.5%;
+    max-width: 100%;
+    text-align: center;
+    width: auto;
+    height: auto;
+    justify-content: center;
+    align-items:center;
 
+    width: 565px;
 
 }
 
-#Chart4{
-
-
-background-color:#2ea4f3;
-
-
-}
 
 #Chart5{
 
