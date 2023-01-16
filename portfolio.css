@@ -12,21 +12,17 @@
     text-align: center;
  }
 
+
  #link3{
     
     background-color: rgba(108, 185, 248, 0.568);
-
-    padding:20px;
-    
     border:2px;
-    border-color:grey;
+    border-color:rgb(218, 212, 212);
     border-style: solid;
-    border-radius: 10px;
-
+    border-radius: 3px;
     font-family: 'Merriweather', sans-serif;
     font-weight:700;
-    color:white;
-    
+    color:rgb(255, 255, 255);
     
     text-decoration: none;
   
@@ -274,7 +270,7 @@ h1, h3, p{
     display: inline-block;
     margin-left: auto;
     margin-right: auto;
-    width: 30%;
+    width: auto;
     
 }
 

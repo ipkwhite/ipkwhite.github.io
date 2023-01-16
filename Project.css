@@ -11,27 +11,23 @@
     text-align: center;
  }
 
-    #link3{
+
+ #link3{
     
-        background-color: rgba(108, 185, 248, 0.568);
+    background-color: rgba(108, 185, 248, 0.568);
+    border:2px;
+    border-color:rgb(218, 212, 212);
+    border-style: solid;
+    border-radius: 3px;
+    font-family: 'Merriweather', sans-serif;
+    font-weight:700;
+    color:rgb(255, 255, 255);
     
-        padding:20px;
-        
-        border:2px;
-        border-color:grey;
-        border-style: solid;
-        border-radius: 10px;
+    text-decoration: none;
+  
+ ;
     
-        font-family: 'Merriweather', sans-serif;
-        font-weight:700;
-        color:white;
-        
-        
-        text-decoration: none;
-      
-     ;
-        
-    }
+}
     
     #link3:hover{
     
