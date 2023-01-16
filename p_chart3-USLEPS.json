@@ -13,21 +13,29 @@
     "url": "https://raw.githubusercontent.com/ipkwhite/ipkwhite.github.io/main/US_LEPS.csv"
   },
   
-  "height": 500,
-  "width": 500,
+  "height": 400,
+  "width": 400,
   
   "layer": [
     {
-      "params": [
-    {
-      "select":"interval",
-      "bind":"scales",
-      "name": "grid"
-    }
-  ],
+     
+
+"selection": {
+
+"grid": {
+"type":"interval", "bind":"scales", "name":"grid"
+
+}
+
+},
+
+
+
+
+
       "mark": {"type": "point", "filled": true, "opacity": 0.5, "size": 50},
       "encoding": {
-        "x": {"field": "Life Expectancy 2019", "type": "quantitative", "title": "Life expectancy",
+        "x": {"field": "Life Expectancy 2019", "type": "quantitative", "title": "Life expectancy (Years)",
         "scale": {"domain": [74,83]}
          
         },
@@ -41,7 +49,8 @@
         "color": {
           "field": "State",
           "type": "nominal",
-          "scale": {"range": ["#00FFFF", "#FF4040", "#7FFF00", "#B23AEE"]}
+          "scale": {"range": ["#00FFFF", "#FF4040", "#7FFF00", "#B23AEE"]},
+          "legend":null
            
         },
        

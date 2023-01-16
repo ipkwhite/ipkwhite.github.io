@@ -1,0 +1,91 @@
+
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Health care expenditure p/capita on % of population 65 years and over.",
+    "subtitle": "US($). Source: WorldBank. 2019",
+    "subtitleFontSize": 10,
+    "subtitleFontStyle": "italic",
+    "anchor": "start"
+  },
+  "height": 300,
+  "width": 300,
+  "data": {
+    "url": "https://raw.githubusercontent.com/ipkwhite/ipkwhite.github.io/main/Healthcarecosts_%2B65_clean%20(1).csv"
+  },
+  "layer": [
+    {
+      "mark": {
+        "type": "point",
+        "color":"Blue",
+        "opacity": 0.3, "size": 70,
+        "filled": true
+      },
+      "encoding": {
+        "x": {
+          "field": "Share +65", 
+          "type": "quantitative",
+          "title": "Share of population 65 years old and over",
+          "axis":{"grid": true}
+        },
+        "y": {
+          "field": "Healthcare costs",
+          "type": "quantitative",
+          "axis":{"grid": false},
+          "title": "Healthcare expenditure per capita (US$)"
+        }, 
+          "tooltip":[
+          {"field":"Country Name", "type": "nominal"},      
+          {"field":"Share +65", "title": "Share of population over 65 years old"},
+          {"field":"Healthcare costs"}]
+
+      }
+
+    },
+    {
+      "mark": {
+        "type": "line",
+        "color": "black"
+      },
+      "transform": [
+        {
+          "regression": "Healthcare costs",
+          "on": "Share +65" }],
+      "encoding": {
+        "x": {
+          "field": "Share +65",
+          "type": "quantitative"},
+        "y": {
+          "field": "Healthcare costs",
+          "type": "quantitative" }
+
+
+
+
+
+
+      }
+    },
+
+    {
+      "transform": [
+        {
+          "regression": "Healthcare costs",
+          "on": "Share +65",
+          "params": true
+        },
+        {"calculate": "'R²: '+format(datum.rSquared, '.2f')", "as": "R2"}
+      ],
+      "mark": {
+        "type": "text",
+        "color": "Red",
+        "x": "width",
+        "align": "right",
+        "y": -10
+      },
+      "encoding": {
+        "text": {"type": "nominal", "field": "R2"}
+      }
+    }
+  ]
+}

@@ -5,7 +5,7 @@
       "text": "IMF Lending Outstanding",
       "subtitle":"Credit outstanding to all members, SDR's (billions, $). Source:IMF",
       "subtitleFontStyle":"italic",
-      "subtitleFontSize":10,
+      "subtitleFontSize":11,
       "anchor": "start",
       "color": "black"},
   
@@ -13,7 +13,11 @@
     
   "url": "https://raw.githubusercontent.com/ipkwhite/ipkwhite.github.io/main/data_IMF_creditOutstanding.csv"
 
+
 },
+
+
+ 
 
 "transform": [
 {"calculate": "datum.Totals/1000000000", "as": "billions"
@@ -27,7 +31,6 @@
    "mark": {
     "type": "bar",
     "color":  "#0c01ad"},
-
 "encoding": {
      "x": {
        "field": "Year",
@@ -40,6 +43,7 @@
         
         },
 
+        
       "y": {
         "field": "billions",
         "type": "quantitative",

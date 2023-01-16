@@ -1,43 +1,46 @@
 {
-    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "description": "Age range by English Districts",
-    "title": {
-      "text": "Projected population composition of the UK by different age groups.",
-      "fontSize": 15,
-      "subtitle": "2020-2040. Source: ONS",
-      "subtitleFontStyle": "italic",
-      "subtitleFontSize": 10,
-      "anchor": "start",
-      "color": "black"
-    },
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Projected population composition of the UK by different age groups.",
+
+
+  "subtitle": "2020-2040. Source: ONS",
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 11,
+    "anchor": "start",
+    "color": "black"
+  },
+     "height": 200,
+  "width": 150,
   
-    "height": 150,
-    "width": 150,
-    
-    "data": {
-      "values": [{"Year": "2020", "Age range": "  0-4", "Percentage": 5.637876032}, {"Year": "2020", "Age range": "  5-9", "Percentage": 6.181986226}, {"Year": "2020", "Age range": " 10-14", "Percentage": 6.029933514}, {"Year": "2020", "Age range": " 15-19", "Percentage": 5.491786172}, {"Year": "2020", "Age range": " 20-24", "Percentage": 6.161116246}, {"Year": "2020", "Age range": " 25-29", "Percentage": 6.673921469}, {"Year": "2020", "Age range": " 30-34", "Percentage": 6.741003548}, {"Year": "2020", "Age range": " 35-39", "Percentage": 6.565099431}, {"Year": "2020", "Age range": " 40-44", "Percentage": 6.099997019}, {"Year": "2020", "Age range": " 45-49", "Percentage": 6.416028145}, {"Year": "2020", "Age range": " 50-54", "Percentage": 6.881130557}, {"Year": "2020", "Age range": " 55-59", "Percentage": 6.724605706}, {"Year": "2020", "Age range": " 60-64", "Percentage": 5.748188784}, {"Year": "2020", "Age range": " 65-69", "Percentage": 5.001341642}, {"Year": "2020", "Age range": " 70-74", "Percentage": 5.014758057}, {"Year": "2020", "Age range": " 75-79", "Percentage": 3.583673713}, {"Year": "2020", "Age range": " 80-84", "Percentage": 2.572970394}, {"Year": "2020", "Age range": " 85-89", "Percentage": 1.565248502}, {"Year": "2020", "Age range": " 90-94", "Percentage": 0.702125757}, {"Year": "2020", "Age range": " 95-99", "Percentage": 0.184848395}, {"Year": "2020", "Age range": "100+", "Percentage": 0.022360693}, {"Year": "2025", "Age range": "  0-4", "Percentage": 4.935217041}, {"Year": "2025", "Age range": "  5-9", "Percentage": 5.702364395}, {"Year": "2025", "Age range": " 10-14", "Percentage": 6.18988361}, {"Year": "2025", "Age range": " 15-19", "Percentage": 6.083010029}, {"Year": "2025", "Age range": " 20-24", "Percentage": 5.78581363}, {"Year": "2025", "Age range": " 25-29", "Percentage": 6.32164556}, {"Year": "2025", "Age range": " 30-34", "Percentage": 6.643730327}, {"Year": "2025", "Age range": " 35-39", "Percentage": 6.639338262}, {"Year": "2025", "Age range": " 40-44", "Percentage": 6.443159359}, {"Year": "2025", "Age range": " 45-49", "Percentage": 5.98784862}, {"Year": "2025", "Age range": " 50-54", "Percentage": 6.274796867}, {"Year": "2025", "Age range": " 55-59", "Percentage": 6.675938804}, {"Year": "2025", "Age range": " 60-64", "Percentage": 6.443159359}, {"Year": "2025", "Age range": " 65-69", "Percentage": 5.413952126}, {"Year": "2025", "Age range": " 70-74", "Percentage": 4.580923798}, {"Year": "2025", "Age range": " 75-79", "Percentage": 4.361320548}, {"Year": "2025", "Age range": " 80-84", "Percentage": 2.841666057}, {"Year": "2025", "Age range": " 85-89", "Percentage": 1.698265134}, {"Year": "2025", "Age range": " 90-94", "Percentage": 0.749579094}, {"Year": "2025", "Age range": " 95-99", "Percentage": 0.203499012}, {"Year": "2025", "Age range": "100+", "Percentage": 0.024888368}, {"Year": "2030", "Age range": "  0-4", "Percentage": 4.801606797}, {"Year": "2030", "Age range": "  5-9", "Percentage": 5.019795971}, {"Year": "2030", "Age range": " 10-14", "Percentage": 5.681037444}, {"Year": "2030", "Age range": " 15-19", "Percentage": 6.255237985}, {"Year": "2030", "Age range": " 20-24", "Percentage": 6.354940323}, {"Year": "2030", "Age range": " 25-29", "Percentage": 5.943126319}, {"Year": "2030", "Age range": " 30-34", "Percentage": 6.311591481}, {"Year": "2030", "Age range": " 35-39", "Percentage": 6.568794613}, {"Year": "2030", "Age range": " 40-44", "Percentage": 6.544230269}, {"Year": "2030", "Age range": " 45-49", "Percentage": 6.349160477}, {"Year": "2030", "Age range": " 50-54", "Percentage": 5.886772823}, {"Year": "2030", "Age range": " 55-59", "Percentage": 6.123746496}, {"Year": "2030", "Age range": " 60-64", "Percentage": 6.435858163}, {"Year": "2030", "Age range": " 65-69", "Percentage": 6.109296882}, {"Year": "2030", "Age range": " 70-74", "Percentage": 4.999566512}, {"Year": "2030", "Age range": " 75-79", "Percentage": 4.029997399}, {"Year": "2030", "Age range": " 80-84", "Percentage": 3.505476404}, {"Year": "2030", "Age range": " 85-89", "Percentage": 1.927578534}, {"Year": "2030", "Age range": " 90-94", "Percentage": 0.842412508}, {"Year": "2030", "Age range": " 95-99", "Percentage": 0.226858943}, {"Year": "2030", "Age range": "100+", "Percentage": 0.028899228}, {"Year": "2035", "Age range": "  0-4", "Percentage": 4.723462728}, {"Year": "2035", "Age range": "  5-9", "Percentage": 4.903813123}, {"Year": "2035", "Age range": " 10-14", "Percentage": 5.078438108}, {"Year": "2035", "Age range": " 15-19", "Percentage": 5.825604031}, {"Year": "2035", "Age range": " 20-24", "Percentage": 6.544142906}, {"Year": "2035", "Age range": " 25-29", "Percentage": 6.525535326}, {"Year": "2035", "Age range": " 30-34", "Percentage": 5.960151151}, {"Year": "2035", "Age range": " 35-39", "Percentage": 6.2650292}, {"Year": "2035", "Age range": " 40-44", "Percentage": 6.498339631}, {"Year": "2035", "Age range": " 45-49", "Percentage": 6.471143937}, {"Year": "2035", "Age range": " 50-54", "Percentage": 6.263597847}, {"Year": "2035", "Age range": " 55-59", "Percentage": 5.774075346}, {"Year": "2035", "Age range": " 60-64", "Percentage": 5.934386809}, {"Year": "2035", "Age range": " 65-69", "Percentage": 6.136207489}, {"Year": "2035", "Age range": " 70-74", "Percentage": 5.679606092}, {"Year": "2035", "Age range": " 75-79", "Percentage": 4.438623612}, {"Year": "2035", "Age range": " 80-84", "Percentage": 3.28209092}, {"Year": "2035", "Age range": " 85-89", "Percentage": 2.410397343}, {"Year": "2035", "Age range": " 90-94", "Percentage": 0.987633116}, {"Year": "2035", "Age range": " 95-99", "Percentage": 0.263368831}, {"Year": "2035", "Age range": "100+", "Percentage": 0.034352456}, {"Year": "2040", "Age range": "  0-4", "Percentage": 4.816881807}, {"Year": "2040", "Age range": "  5-9", "Percentage": 4.832502592}, {"Year": "2040", "Age range": " 10-14", "Percentage": 4.968829435}, {"Year": "2040", "Age range": " 15-19", "Percentage": 5.181840128}, {"Year": "2040", "Age range": " 20-24", "Percentage": 6.124767463}, {"Year": "2040", "Age range": " 25-29", "Percentage": 6.719777333}, {"Year": "2040", "Age range": " 30-34", "Percentage": 6.545108564}, {"Year": "2040", "Age range": " 35-39", "Percentage": 5.928797626}, {"Year": "2040", "Age range": " 40-44", "Percentage": 6.209971741}, {"Year": "2040", "Age range": " 45-49", "Percentage": 6.437183147}, {"Year": "2040", "Age range": " 50-54", "Percentage": 6.396001079}, {"Year": "2040", "Age range": " 55-59", "Percentage": 6.15458896}, {"Year": "2040", "Age range": " 60-64", "Percentage": 5.616381942}, {"Year": "2040", "Age range": " 65-69", "Percentage": 5.681705222}, {"Year": "2040", "Age range": " 70-74", "Percentage": 5.731407717}, {"Year": "2040", "Age range": " 75-79", "Percentage": 5.078174924}, {"Year": "2040", "Age range": " 80-84", "Percentage": 3.658103637}, {"Year": "2040", "Age range": " 85-89", "Percentage": 2.299095415}, {"Year": "2040", "Age range": " 90-94", "Percentage": 1.255343018}, {"Year": "2040", "Age range": " 95-99", "Percentage": 0.322356182}, {"Year": "2040", "Age range": "100+", "Percentage": 0.041182067}]
+  "data": {
+    "values": [{"Year": "2020", "Age range": "  0-4", "Percentage": 5.637876032}, {"Year": "2020", "Age range": "  5-9", "Percentage": 6.181986226}, {"Year": "2020", "Age range": " 10-14", "Percentage": 6.029933514}, {"Year": "2020", "Age range": " 15-19", "Percentage": 5.491786172}, {"Year": "2020", "Age range": " 20-24", "Percentage": 6.161116246}, {"Year": "2020", "Age range": " 25-29", "Percentage": 6.673921469}, {"Year": "2020", "Age range": " 30-34", "Percentage": 6.741003548}, {"Year": "2020", "Age range": " 35-39", "Percentage": 6.565099431}, {"Year": "2020", "Age range": " 40-44", "Percentage": 6.099997019}, {"Year": "2020", "Age range": " 45-49", "Percentage": 6.416028145}, {"Year": "2020", "Age range": " 50-54", "Percentage": 6.881130557}, {"Year": "2020", "Age range": " 55-59", "Percentage": 6.724605706}, {"Year": "2020", "Age range": " 60-64", "Percentage": 5.748188784}, {"Year": "2020", "Age range": " 65-69", "Percentage": 5.001341642}, {"Year": "2020", "Age range": " 70-74", "Percentage": 5.014758057}, {"Year": "2020", "Age range": " 75-79", "Percentage": 3.583673713}, {"Year": "2020", "Age range": " 80-84", "Percentage": 2.572970394}, {"Year": "2020", "Age range": " 85-89", "Percentage": 1.565248502}, {"Year": "2020", "Age range": " 90-94", "Percentage": 0.702125757}, {"Year": "2020", "Age range": " 95-99", "Percentage": 0.184848395}, {"Year": "2020", "Age range": "100+", "Percentage": 0.022360693}, {"Year": "2025", "Age range": "  0-4", "Percentage": 4.935217041}, {"Year": "2025", "Age range": "  5-9", "Percentage": 5.702364395}, {"Year": "2025", "Age range": " 10-14", "Percentage": 6.18988361}, {"Year": "2025", "Age range": " 15-19", "Percentage": 6.083010029}, {"Year": "2025", "Age range": " 20-24", "Percentage": 5.78581363}, {"Year": "2025", "Age range": " 25-29", "Percentage": 6.32164556}, {"Year": "2025", "Age range": " 30-34", "Percentage": 6.643730327}, {"Year": "2025", "Age range": " 35-39", "Percentage": 6.639338262}, {"Year": "2025", "Age range": " 40-44", "Percentage": 6.443159359}, {"Year": "2025", "Age range": " 45-49", "Percentage": 5.98784862}, {"Year": "2025", "Age range": " 50-54", "Percentage": 6.274796867}, {"Year": "2025", "Age range": " 55-59", "Percentage": 6.675938804}, {"Year": "2025", "Age range": " 60-64", "Percentage": 6.443159359}, {"Year": "2025", "Age range": " 65-69", "Percentage": 5.413952126}, {"Year": "2025", "Age range": " 70-74", "Percentage": 4.580923798}, {"Year": "2025", "Age range": " 75-79", "Percentage": 4.361320548}, {"Year": "2025", "Age range": " 80-84", "Percentage": 2.841666057}, {"Year": "2025", "Age range": " 85-89", "Percentage": 1.698265134}, {"Year": "2025", "Age range": " 90-94", "Percentage": 0.749579094}, {"Year": "2025", "Age range": " 95-99", "Percentage": 0.203499012}, {"Year": "2025", "Age range": "100+", "Percentage": 0.024888368}, {"Year": "2030", "Age range": "  0-4", "Percentage": 4.801606797}, {"Year": "2030", "Age range": "  5-9", "Percentage": 5.019795971}, {"Year": "2030", "Age range": " 10-14", "Percentage": 5.681037444}, {"Year": "2030", "Age range": " 15-19", "Percentage": 6.255237985}, {"Year": "2030", "Age range": " 20-24", "Percentage": 6.354940323}, {"Year": "2030", "Age range": " 25-29", "Percentage": 5.943126319}, {"Year": "2030", "Age range": " 30-34", "Percentage": 6.311591481}, {"Year": "2030", "Age range": " 35-39", "Percentage": 6.568794613}, {"Year": "2030", "Age range": " 40-44", "Percentage": 6.544230269}, {"Year": "2030", "Age range": " 45-49", "Percentage": 6.349160477}, {"Year": "2030", "Age range": " 50-54", "Percentage": 5.886772823}, {"Year": "2030", "Age range": " 55-59", "Percentage": 6.123746496}, {"Year": "2030", "Age range": " 60-64", "Percentage": 6.435858163}, {"Year": "2030", "Age range": " 65-69", "Percentage": 6.109296882}, {"Year": "2030", "Age range": " 70-74", "Percentage": 4.999566512}, {"Year": "2030", "Age range": " 75-79", "Percentage": 4.029997399}, {"Year": "2030", "Age range": " 80-84", "Percentage": 3.505476404}, {"Year": "2030", "Age range": " 85-89", "Percentage": 1.927578534}, {"Year": "2030", "Age range": " 90-94", "Percentage": 0.842412508}, {"Year": "2030", "Age range": " 95-99", "Percentage": 0.226858943}, {"Year": "2030", "Age range": "100+", "Percentage": 0.028899228}, {"Year": "2035", "Age range": "  0-4", "Percentage": 4.723462728}, {"Year": "2035", "Age range": "  5-9", "Percentage": 4.903813123}, {"Year": "2035", "Age range": " 10-14", "Percentage": 5.078438108}, {"Year": "2035", "Age range": " 15-19", "Percentage": 5.825604031}, {"Year": "2035", "Age range": " 20-24", "Percentage": 6.544142906}, {"Year": "2035", "Age range": " 25-29", "Percentage": 6.525535326}, {"Year": "2035", "Age range": " 30-34", "Percentage": 5.960151151}, {"Year": "2035", "Age range": " 35-39", "Percentage": 6.2650292}, {"Year": "2035", "Age range": " 40-44", "Percentage": 6.498339631}, {"Year": "2035", "Age range": " 45-49", "Percentage": 6.471143937}, {"Year": "2035", "Age range": " 50-54", "Percentage": 6.263597847}, {"Year": "2035", "Age range": " 55-59", "Percentage": 5.774075346}, {"Year": "2035", "Age range": " 60-64", "Percentage": 5.934386809}, {"Year": "2035", "Age range": " 65-69", "Percentage": 6.136207489}, {"Year": "2035", "Age range": " 70-74", "Percentage": 5.679606092}, {"Year": "2035", "Age range": " 75-79", "Percentage": 4.438623612}, {"Year": "2035", "Age range": " 80-84", "Percentage": 3.28209092}, {"Year": "2035", "Age range": " 85-89", "Percentage": 2.410397343}, {"Year": "2035", "Age range": " 90-94", "Percentage": 0.987633116}, {"Year": "2035", "Age range": " 95-99", "Percentage": 0.263368831}, {"Year": "2035", "Age range": "100+", "Percentage": 0.034352456}, {"Year": "2040", "Age range": "  0-4", "Percentage": 4.816881807}, {"Year": "2040", "Age range": "  5-9", "Percentage": 4.832502592}, {"Year": "2040", "Age range": " 10-14", "Percentage": 4.968829435}, {"Year": "2040", "Age range": " 15-19", "Percentage": 5.181840128}, {"Year": "2040", "Age range": " 20-24", "Percentage": 6.124767463}, {"Year": "2040", "Age range": " 25-29", "Percentage": 6.719777333}, {"Year": "2040", "Age range": " 30-34", "Percentage": 6.545108564}, {"Year": "2040", "Age range": " 35-39", "Percentage": 5.928797626}, {"Year": "2040", "Age range": " 40-44", "Percentage": 6.209971741}, {"Year": "2040", "Age range": " 45-49", "Percentage": 6.437183147}, {"Year": "2040", "Age range": " 50-54", "Percentage": 6.396001079}, {"Year": "2040", "Age range": " 55-59", "Percentage": 6.15458896}, {"Year": "2040", "Age range": " 60-64", "Percentage": 5.616381942}, {"Year": "2040", "Age range": " 65-69", "Percentage": 5.681705222}, {"Year": "2040", "Age range": " 70-74", "Percentage": 5.731407717}, {"Year": "2040", "Age range": " 75-79", "Percentage": 5.078174924}, {"Year": "2040", "Age range": " 80-84", "Percentage": 3.658103637}, {"Year": "2040", "Age range": " 85-89", "Percentage": 2.299095415}, {"Year": "2040", "Age range": " 90-94", "Percentage": 1.255343018}, {"Year": "2040", "Age range": " 95-99", "Percentage": 0.322356182}, {"Year": "2040", "Age range": "100+", "Percentage": 0.041182067}]
+  },
+  "mark": "arc",
+  "encoding": {
+    "facet": {
+      "field": "Year",
+      "title": "Principal projection",
+      "type": "ordinal",
+      "columns": 3
     },
-    "mark": "arc",
-    "encoding": {
-      "facet": {
-        "field": "Year",
-        "title": null,
-        "type": "ordinal",
-        "columns": 3
-      },
-      "theta": {"field": "Percentage", "type": "quantitative"},
-      "color": {
-        "field": "Age range",
-        "sort": ["descending"],
-        "type": "nominal",
-        "scale": {
-          "range": ["#FFDB58", "#FFE87C","#FFF380","#FAF884","#7E3517","#C04000","#C34A2C","#EB5406","#A74AC7","#BA55D3","#C45AEC","#D462FF","#437C17","#6AA121","#6CBB3C","#52D017","#550A35","#7D0552","#7E354D","#872657"]
-        },
-        "title": "Age range"
-      },
-      "tooltip": [
-        {"field": "Age range", "type": "ordinal", "title": "Age range"},
-        {"field": "Percentage", "type": "nominal", "title": "Population proportion (%)"}
-      ]
-    }
+
+
+    "theta": {"field": "Percentage", "type": "quantitative"},
+    "color": {
+      "field": "Age range",
+      "sort": ["descending"],
+      "type": "nominal",
+      "legend": {"title": "Age range (years)", "direction": "vertical", "orient": "right" },
+
+
+
+      "scale": {
+        "range": ["#FFDB58","#FFDB58", "#FFE87C","#FFF380","#FAF884","#7E3517","#C04000","#C34A2C","#EB5406","#A74AC7","#BA55D3","#C45AEC","#D462FF","#437C17","#6AA121","#6CBB3C","#52D017","#550A35","#7D0552","#7E354D","#872657"]},
+      "title": "Age range"},
+    "tooltip": [
+      {"field": "Age range", "type": "nominal", "title": "Age range"},
+      {"field": "Percentage", "type": "nominal", "title": "Proportion of population (%)"}
+    ]
   }
+}
