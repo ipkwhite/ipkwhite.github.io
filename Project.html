@@ -26,6 +26,8 @@
     <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.12.2"></script>
 </head>
 
+ <!-- Code to allow links to my Home Page and Portfolio -->
+
 <div class="wrap">    
 
 
@@ -43,35 +45,133 @@
     <!-- A div that contains a group of items for project. Can be useful for setting background colours etc.  -->
 
     <div class="project">
-        <h1>My Project</h1>
-        <h3><u>The economic ramifications of aging populations</u></h3>
+        <h1>Project</h1>
+        <h3><u>Growing Pains</u></h3>
 
-        <h3>Aims</h3>
-        <p>Many populations globally, espescially in the developed world are rapidly aging and this precarious population structure is hypothesized to bring with it various economic issues. The population pyramid below illustrates this occurance for Japan over the years, perhaps the most obtuse example of all economies.</p>
-        
+        <p>Economic prosperity and ensuing medical advancements have brought with it desirable improvements in life quality but has caused the unprecedented ageing of populations for nations as they develop. This project aims to unveil both the causes and economic ramifications of this precarious situation.
+  
+ </p>
 
-        <h3>Regression of Health care expenditure on life expectancy at birth.</h3>
-        <p>This regression shows the effect of life expectancy at birth on health-care expenditure.  The R² value is 0.37, which suggests weak correlation.</p>
-        <div class="chart" id="Chart21"></div>
-        <p><a href="https://colab.research.google.com/drive/1N9vNA4PNocuobcZhAWSr02zBaLrmhLT3?usp=sharing-" class="linkcolab" id="link4" target="_blank">Colab</a></p>
-        
-       <div class="chart" id="Chart22"></div>
-       <p>Data from the UN was already relatively clean, I just had to calculate the dependancy ratios in excel, move table to top left corner, and then I cleaned the data in colab;</a></p>
-        <p><a href="https://colab.research.google.com/drive/13ZiTDnBWzZ-AjSL1xPCbylGY91zc01l3?usp=sharing-" class="linkcolab" id="link4"target="_blank">Colab</a></p> 
+     <h3>Truths</h3>
+<p>The extent of the problem can be seen in Japan, where in 1960 the most populous age group was 10-14 years, whereas in 2020 it is 45-49 years. I also displayed the projected ageing of the UK population up to 2040 using a Trellis chart. The UK isn’t projected to age significantly by 2040, and this illustrates a later point; developing nations will age most severely. </p>
 
-       <div class="chart" id="Chart1"></div>
-       
-       <p><a href="https://colab.research.google.com/drive/1nGzGDn7SijKsCKeGegwweWuII4UvtLC9?usp=sharing" class="linkcolab" id="link4"target="_blank">Colab</a></p>
+<p><a href="https://colab.research.google.com/drive/12pwSziySSVoE0Hbr6l8kuys9c5NGqCKQ?usp=sharing%20class%3D" class="linkcolab" id="link4"target="_blank">Colab</a></p>
+
+<div class="chart" id="Chart1"></div>
+
+ 
+        <p>For both charts, the bar and legend for the age range ‘100+’ was appearing after ’10-15’ initially and was solved by sorting by ‘descending’. I had to transpose data for the Trellis chart and was unable to get it into a usable format through python, so I transposed and calculated population percentages in excel. </p>
+
+        <p><a href="https://colab.research.google.com/drive/13ZiTDnBWzZ-AjSL1xPCbylGY91zc01l3?usp=sharing-" class="linkcolab" id="link4"target="_blank">Colab</a></p>
+
+        <div class="chart" id="Chart2"></div>
+
+      
+       <h3>How and why? </h3>
+        <p>For these maps, I utilised a topojson file for the world hosted on GitHub. They show the two principal causes of ageing populations; increases in life expectancies and corresponding reduction in birth rates that occurred globally over the period.</p>
+        <p><a href="https://colab.research.google.com/drive/1DQYHW4YlORysq8Hp6tj-7ywD7lrNoD5j?usp=sharing" class="linkcolab" id="link4"target="_blank">Colab</a></p>
+        <div class="chart" id="Chart3"></div>
+      
+    
    
-       <div class="chart" id="Chart2"></div>
-     
-        <p><a href="https://colab.research.google.com/drive/12pwSziySSVoE0Hbr6l8kuys9c5NGqCKQ?usp=sharing class=" class="linkcolab" id="link4"target="_blank">Colab</a></p>
-        <p>
+       
+      <p><a href="https://colab.research.google.com/drive/13RTePLZAYjXchRp60ZTEXtUXP61d2W0_?usp=sharing" class="linkcolab" id="link4"target="_blank">Colab</a></p>
 
-         <div class="chart" id="Chart3"></div>
+       <div class="chart" id="Chart4"></div>
+       <p>
+   
+  
+      <p>GDP p/capita is displayed in the tooltip because this is the underlying cause of the changes. As nations become wealthier and career prospects improve, the trade-off between having children and earning higher salaries increases so birth rates fall, and life expectancy increases as healthcare quality improves. </p>
+<p>Post-mapping there were some countries missing initially, like Russia, so I renamed them in python to match names listed in the topojson file. Some nations remain missing, namely some less developed nations, that WorldBank didn’t have data for.</p>
+        
+
+       <h3>Dependancy ratio’s</h3>
+        <p></p>
+        <p><a href="https://colab.research.google.com/drive/1nGzGDn7SijKsCKeGegwweWuII4UvtLC9?usp=sharing" class="linkcolab" id="link4" target="_blank">Colab</a></p>
+        <div class="chart" id="Chart5"></div>
+        
+        <p>Dependency ratios are the ratio of individuals not of working age to those who are. Birth rates in low-and-middle-income countries are declining faster than life expectancy is increasing, with the opposite being generally true for wealthier nations. China, for example, saw a 71.22% decline in birth rates and a 57.38% increase in life expectancy. China was at 1.281 births per-woman in 2020, and is unlikely to fall much more, displaying the reason wealthier nations saw increases in dependency ratio’s; life expectancy can still grow, whereas fertility rates are at their lower bound. Therefore, as nations develop dependency ratios will rise globally.  </p>
+    <p>I cleaned the data using python, but calculated dependency ratio’s in excel as I couldn’t find a way to code it effectively. </p>
+
+    <h3>Costs</h3>
+
+    <p><a href="https://colab.research.google.com/drive/19y4o_tNkcbsnmUzqn6sVjspDfdWV9OKr?usp=sharing" class="linkcolab" id="link4"target="_blank">Colab</a></p>
+
+    <div class="chart" id="Chart6"></div>
+
+      
+       
+   
+<p>The R² value in this regression means that 40% of the variation in health care expenditure p/capita can be explained by the population of 65 years-and-over. Therefore, as populations age, health care expenditure will rise, and when working populations fall due to low birth-rates and dependency ratio’s rise, the pool of workers to collect taxes from for funding will decrease.</p>
+        
+<p><a href="https://colab.research.google.com/drive/1SHIre2Q-iPnZ_SBfLCBROCahLSdUmHwP?usp=sharing" class="linkcolab" id="link4"target="_blank">Colab</a>
+         <div class="chart" id="Chart7"></div>
+        
      
-       <p><a href="https://colab.research.google.com/drive/1SHIre2Q-iPnZ_SBfLCBROCahLSdUmHwP?usp=sharing" class="linkcolab" id="link4"target="_blank">Colab</a></p>
-        <p>R²=0.09</p>
+       
+        </p>
+        <p>I utilised supervised learning for this regression but coded the chart in Vega-lite to permit interactivity. Initially I tried scraping pension spending data from ‘federal reserve’, but I got a ‘HTML restricted’ error, so I had to find another source. </p>
+
+<p>Given life expectancy is a primary cause of ageing populations, I expected a higher value than the calculated R² of 0.09 which is a very weak correlation. Democrat-aligned states provide more funding for pensions than republican states, and likely dilutes the impact of life expectancy here (1).
+  After some states and life expectancy values in the table post-cleaning, there were numbers in square brackets, and I could only remove the numbers not the brackets, so I had to download the semi-cleaned table to finish in excel. Life expectancies were always between 74 and 83, so initially all the points were in a small area. I fixed this by both adding a zoom function and setting the domain between 74 and 83.
+  </p>
+
+    </div> 
+
+
+
+
+
+    <p></p>
+    
+    </div>
+    
+    <p></p>
+    
+      <div class="project">
+        <h1>Sources</h1>
+        <h3>Data:(Chart number)</h3>
+        <p><a href="https://population.un.org/wpp/Download/Standard/Population/" class="linksource" id="linksource1"target="_blank">
+        (1)United Nations</a><a href="https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationprojections/datasets/tablea21principalprojectionukpopulationinagegroups" class="linksource" id="linksource2"target="_blank">
+       (2)ONS</a>
+    
+    
+       
+        <a href="https://data.worldbank.org/indicator/SP.DYN.LE00.IN" class="linksource" id="linksource3"target="_blank">(3)WorldBank</a>
+        <a href="https://data.worldbank.org/indicator/NY.GDP.PCAP.CD" class="linksource" id="linksource3"target="_blank">(3)WorldBank</a>
+        
+        <a href="https://data.worldbank.org/indicator/SP.DYN.TFRT.IN" class="linksource" id="linksource4"target="_blank">(4)WorldBank</a>
+        <a href="https://data.worldbank.org/indicator/NY.GDP.PCAP.CD" class="linksource" id="linksource4"target="_blank">(4)WorldBank</a></p>
+
+        <p><a href="https://population.un.org/wpp/Download/Standard/Population/" class="linksource" id="linksource5"target="_blank">(5)United Nations</a> 
+        <a href="https://data.worldbank.org/indicator/SH.XPD.CHEX.GD.ZS" class="linksource" id="linksource6"target="_blank">(6)WorldBank</a>
+        <a href="https://data.worldbank.org/indicator/SP.POP.65UP.TO.ZS" class="linksource" id="linksource6"target="_blank">(6)WorldBank</a>
+        <a href="https://en.wikipedia.org/wiki/List_of_U.S._states_and_territories_by_life_expectancy" class="linksource" id="linksource7"target="_blank">(7)Wikipedia
+        <a href="https://www.usgovernmentspending.com/compare_state_spending_2019m00a" class="linksource" id="linksource7"target="_blank">(7)www.usgovernmentspending.com</a>
+      </p>
+
+        <h3>In text</h3>
+
+        <p><a href="https://population.un.org/wpp/Download/Standard/Population/" class="linksource" id="linksource1"target="_blank">
+            (1)United Nations</a><a href="https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationprojections/datasets/tablea21principalprojectionukpopulationinagegroups" class="linksource" id="linksource2"target="_blank">
+           (2)ONS</a>
+        
+        
+           
+            <a href="https://data.worldbank.org/indicator/SP.DYN.LE00.IN" class="linksource" id="linksource3"target="_blank">(3)WorldBank</a>
+            <a href="https://data.worldbank.org/indicator/NY.GDP.PCAP.CD" class="linksource" id="linksource3"target="_blank">(3)WorldBank</a>
+            
+            <a href="https://data.worldbank.org/indicator/SP.DYN.TFRT.IN" class="linksource" id="linksource4"target="_blank">(4)WorldBank</a>
+            <a href="https://data.worldbank.org/indicator/NY.GDP.PCAP.CD" class="linksource" id="linksource4"target="_blank">(4)WorldBank</a></p>
+    
+            <p><a href="https://population.un.org/wpp/Download/Standard/Population/" class="linksource" id="linksource5"target="_blank">(5)United Nations</a> 
+            <a href="https://data.worldbank.org/indicator/SH.XPD.CHEX.GD.ZS" class="linksource" id="linksource6"target="_blank">(6)WorldBank</a>
+            <a href="https://data.worldbank.org/indicator/SP.POP.65UP.TO.ZS" class="linksource" id="linksource6"target="_blank">(6)WorldBank</a>
+            <a href="https://en.wikipedia.org/wiki/List_of_U.S._states_and_territories_by_life_expectancy" class="linksource" id="linksource7"target="_blank">(7)Wikipedia
+            <a href="https://www.usgovernmentspending.com/compare_state_spending_2019m00a" class="linksource" id="linksource7"target="_blank">(7)www.usgovernmentspending.com</a>
+          </p>
+
+
 
     </div>
   
@@ -97,30 +197,17 @@
 
 <script>
     //Define charts:
-    var myChart1 = "p_chart1_depratio.json";
-    var myChart2 = "p_chart2_PP_JAP.json";
-    var myChart3 = "p_chart3-USLEPS.json";
-    var myChart4 = "chart4_IMFLendingtoGDP.json";
-    var myChart5 = "chart5_Real_GDP_LT_Forecasts_area.json";
-    var myChart6 = "chart6_Real_GDP_LT_Forecasts_line.json";
-    var myChart7 = "chart7_premierleaguewins.json";
-    var myChart8 = "chart8_UE1.json";
-    var myChart9 = "chart9_UE2.json";
-    var myChart10 = "chart10_UE3.json";
-    var myChart11 = "chart11_UE4.json";
-    var myChart12 = "chart12_UE5.json";
-    var myChart13 = "chart13_UE6.json";
-    var myChart14 = "chart14_UE7.json";
-    var myChart15 = "chart15_UE8.json";
-    var myChart16 = "chart16_UE9.json";
-    var myChart17 = "chart17_Map_LAD_UK_TOPO.json";
-    var myChart18 = "chart18_Map_LAD_UK_choropleth.json";
-    var myChart19 = "chart19_Realwagegrowth.json";
-    var myChart20 = "chart20_Unions.json";
-    var myChart21 = "chart21_HCE_LE_reg.json";
-    var myChart22 = "chart22_AgePopUK.json";
-    var myChart23 = "";
-    var myChart24 = "";
+
+    var myChart1 = "p_chart2_PP_JAP.json";
+    var myChart2= "chart22_AgePopUK.json";
+    var myChart3 = "pchart5_MAP_LE_GDP.json";
+    var myChart4 = "pchart4_MAP_FR_GDP.json";
+    var myChart5 = "p_chart1_depratio.json";
+    var myChart6 = "chart21_HCE_65_reg.json";
+    var myChart7 = "p_chart3-USLEPS.json"
+
+
+
     // Embed charts:
     vegaEmbed('#Chart1', myChart1);
     vegaEmbed('#Chart2', myChart2);
@@ -129,23 +216,7 @@
     vegaEmbed('#Chart5', myChart5);
     vegaEmbed('#Chart6', myChart6);
     vegaEmbed('#Chart7', myChart7);
-    vegaEmbed('#Chart8', myChart8);
-    vegaEmbed('#Chart9', myChart9);
-    vegaEmbed('#Chart10', myChart10);
-    vegaEmbed('#Chart11', myChart11);
-    vegaEmbed('#Chart12', myChart12);
-    vegaEmbed('#Chart13', myChart13);
-    vegaEmbed('#Chart14', myChart14);
-    vegaEmbed('#Chart15', myChart15);
-    vegaEmbed('#Chart16', myChart16);
-    vegaEmbed('#Chart17', myChart17);
-    vegaEmbed('#Chart18', myChart18);
-    vegaEmbed('#Chart19', myChart19);
-    vegaEmbed('#Chart20', myChart20);
-    vegaEmbed('#Chart21', myChart21);
-    vegaEmbed('#Chart22', myChart22);
-    vegaEmbed('#Chart23', myChart23);
-    vegaEmbed('#Chart24', myChart24);
+   
 </script>
 
 

@@ -6,7 +6,7 @@
 
 h1{
     font-family: 'Merriweather', sans-serif;
-    background-color:rgb(182, 211, 255);
+    background-color:rgb(144, 188, 255);
     text-align: center;
 }
 h2{
@@ -18,7 +18,7 @@ p{
     font-size: larger;
     font-variant: small-caps;
     color:rgba(0, 0, 0, 0.788);
-    background-color: rgb(218, 218, 218);
+    background-color:  rgb(144, 188, 255);
     text-align: center;
 
 
@@ -30,12 +30,13 @@ p{
 /* AREAS OF THE PAGE */
 
 body{
-    background-color:  rgb(202, 202, 202);;
-}
+    background-color: rgb(144, 188, 255);
+ }
 
 .wrap{
-    background-color:  rgb(202, 202, 202);
-}
+    background-color:  rgb(144, 188, 255);
+    text-align: center;
+ }
 
 
 
@@ -55,7 +56,7 @@ a{
     background-color: rgba(108, 185, 248, 0.568);
 
     padding:20px;
-    
+    margin-top:100px;
     border:2px;
     border-color:grey;
     border-style: solid;
@@ -67,7 +68,7 @@ a{
     
     
     text-decoration: none;
-   margin-left: 480px;
+  
  ;
     
 }
