@@ -2,7 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
 
-/* FONTS: */
+/* Choose the appearance of the tags, h1, h2 and p and a: */
 
 h1{
     font-family: 'Merriweather', sans-serif;
@@ -21,11 +21,16 @@ p{
     background-color:  rgb(144, 188, 255);
     text-align: center;
 
-
-
-
-
 }
+
+a{
+    border: 5px;
+    border-color: black;
+    border-style: solid;
+
+    margin:20px
+}
+
 
 /* AREAS OF THE PAGE */
 
@@ -40,19 +45,10 @@ body{
 
 
 
-/* BUTTONS */
-
-a{
-    border: 5px;
-    border-color: black;
-    border-style: solid;
-
-    margin:20px
-}
 
 
 
-
+/*Setting the appearance of the links to porfolio,project and github*/
 
 #link3{
     

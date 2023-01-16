@@ -54,19 +54,20 @@
 
      <h3>Truths</h3>
 <p>The extent of the problem can be seen in Japan, where in 1960 the most populous age group was 10-14 years, whereas in 2020 it is 45-49 years. I also displayed the projected ageing of the UK population up to 2040 using a Trellis chart. The UK isn’t projected to age significantly by 2040, and this illustrates a later point; developing nations will age most severely. </p>
-
+<!--Chart with slider for years 1960, 1990 and 2020 showing the age-related shift in Japanese demographics-->
 <p><a href="https://colab.research.google.com/drive/12pwSziySSVoE0Hbr6l8kuys9c5NGqCKQ?usp=sharing%20class%3D" class="linkcolab" id="link4"target="_blank">Colab</a></p>
 
 <div class="chart" id="Chart1"></div>
 
- 
-        <p>For both charts, the bar and legend for the age range ‘100+’ was appearing after ’10-15’ initially and was solved by sorting by ‘descending’. I had to transpose data for the Trellis chart and was unable to get it into a usable format through python, so I transposed and calculated population percentages in excel. </p>
+ <!--Trellis chart showing the projected change in age demographics of the UK from 2020-2040 -->
+
 
         <p><a href="https://colab.research.google.com/drive/13ZiTDnBWzZ-AjSL1xPCbylGY91zc01l3?usp=sharing-" class="linkcolab" id="link4"target="_blank">Colab</a></p>
 
         <div class="chart" id="Chart2"></div>
-
+        <p>For both charts, the bar and legend for the age range ‘100+’ was appearing after ’10-15’ initially and was solved by sorting by ‘descending’. I had to transpose data for the Trellis chart and was unable to get it into a usable format through python, so I transposed and calculated population percentages in excel. </p>
       
+        <!--World maps showing the change in Life expectancy and Fertility rates from 1960 to 2020, with GDP p/capita also displayed in the tooltip-->
        <h3>How and why? </h3>
         <p>For these maps, I utilised a topojson file for the world hosted on GitHub. They show the two principal causes of ageing populations; increases in life expectancies and corresponding reduction in birth rates that occurred globally over the period.</p>
         <p><a href="https://colab.research.google.com/drive/1DQYHW4YlORysq8Hp6tj-7ywD7lrNoD5j?usp=sharing" class="linkcolab" id="link4"target="_blank">Colab</a></p>
@@ -77,6 +78,8 @@
        
       <p><a href="https://colab.research.google.com/drive/13RTePLZAYjXchRp60ZTEXtUXP61d2W0_?usp=sharing" class="linkcolab" id="link4"target="_blank">Colab</a></p>
 
+
+
        <div class="chart34" id="Chart4"></div>
        <p>
    
@@ -84,6 +87,7 @@
       <p>GDP p/capita is displayed in the tooltip because this is the underlying cause of the changes. As nations become wealthier and career prospects improve, the trade-off between having children and earning higher salaries increases so birth rates fall, and life expectancy increases as healthcare quality improves. </p>
 <p>Post-mapping there were some countries missing initially, like Russia, so I renamed them in python to match names listed in the topojson file. Some nations remain missing, namely some less developed nations, that WorldBank didn’t have data for.</p>
         
+<!--Chart showing change in dependancy ratios over time for the wolrd and numerous countries as well as groups of countries within different wealth groups-->
 
        <h3>Dependancy ratio’s</h3>
         <p></p>
@@ -93,6 +97,8 @@
         <p>Dependency ratios are the ratio of individuals not of working age to those who are. Birth rates in low-and-middle-income countries are declining faster than life expectancy is increasing, with the opposite being generally true for wealthier nations. China, for example, saw a 71.22% decline in birth rates and a 57.38% increase in life expectancy. China was at 1.281 births per-woman in 2020, and is unlikely to fall much more, displaying the reason wealthier nations saw increases in dependency ratio’s; life expectancy can still grow, whereas fertility rates are at their lower bound. Therefore, as nations develop dependency ratios will rise globally.  </p>
     <p>I cleaned the data using python, but calculated dependency ratio’s in excel as I couldn’t find a way to code it effectively. </p>
 
+    <!--Chart showing a regression of healthcare expenditure p/capita on share of the global population over 65 years old, utilising data from many countries-->
+
     <h3>Costs</h3>
 
     <p><a href="https://colab.research.google.com/drive/19y4o_tNkcbsnmUzqn6sVjspDfdWV9OKr?usp=sharing" class="linkcolab" id="link4"target="_blank">Colab</a></p>
@@ -101,9 +107,11 @@
 
       
        
-   
+
 <p>The R² value in this regression means that 40% of the variation in health care expenditure p/capita can be explained by the population of 65 years-and-over. Therefore, as populations age, health care expenditure will rise, and when working populations fall due to low birth-rates and dependency ratio’s rise, the pool of workers to collect taxes from for funding will decrease.</p>
-        
+
+           <!--Chart showing a regression of Pension spending p/capita on life expectancy using data from US states-->
+
 <p><a href="https://colab.research.google.com/drive/1SHIre2Q-iPnZ_SBfLCBROCahLSdUmHwP?usp=sharing" class="linkcolab" id="link4"target="_blank">Colab</a>
          <div class="chart" id="Chart7"></div>
         
@@ -116,10 +124,12 @@
   After some states and life expectancy values in the table post-cleaning, there were numbers in square brackets, and I could only remove the numbers not the brackets, so I had to download the semi-cleaned table to finish in excel. Life expectancies were always between 74 and 83, so initially all the points were in a small area. I fixed this by both adding a zoom function and setting the domain between 74 and 83.
   </p>
 
-
+   <!--Data section-->
   <h3>Data</h3>
     <p>All the sources I used are referenced both in-chart and in the section below. I cleaned and merged all datasets in python, though occasionally utilised excel for issues I couldn’t solve by coding.  When data was missing, I used ‘df.drop(na)’ and when I needed to drop more columns than I was keeping so I used ‘df=df[[‘’]]’.
     </p>
+
+   <!--Conclusion-->
 
 <h3>Conclusion</h3>
 
@@ -136,7 +146,9 @@
     </div>
     
     <p></p>
-    
+
+       <!--Sources section with links to sources used in charts, in order of appearance-->
+
       <div class="project">
         <h1>Sources</h1>
         <h3>Data:(Chart number)</h3>
@@ -158,6 +170,8 @@
         <a href="https://en.wikipedia.org/wiki/List_of_U.S._states_and_territories_by_life_expectancy" class="linksource" id="linksource7"target="_blank">(7)Wikipedia
         <a href="https://www.usgovernmentspending.com/compare_state_spending_2019m00a" class="linksource" id="linksource7"target="_blank">(7)www.usgovernmentspending.com</a>
       </p>
+
+   <!--Sources used in-text reference(s)-->
 
       <h3>Footnotes; </h3>
       <p><a href="https://www.the-american-interest.com/2016/12/16/blue-states-have-bigger-pension-debts-than-red-states/" class="linksource" id="linksource1"target="_blank">(1)the-american-interest.com</a>

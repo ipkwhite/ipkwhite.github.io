@@ -4,14 +4,16 @@
 
 /* Book on colour = Joseph Albers - Interaction of Colour */
 
- /* Set appearance of buttons for portfolio and home page links */
+ 
 
+
+ /*Using to centralise the buttons for project and homepage */
  .wrap{
     background-color:  rgb(144, 188, 255);
     text-align: center;
  }
 
-
+/* Set appearance of buttons for portfolio and home page links */
  #link3{
     
     background-color: rgba(108, 185, 248, 0.568);
@@ -143,7 +145,7 @@ body{
  }
 
 
-/* Choose the appearance of the tags, h1, h3 and p: */
+/* Choose the appearance of the tags, h1, h3 and p and a: */
 h1, h3, p{
     color:rgb(0, 0, 0);
     font-family: 'Merriweather', sans-serif;
@@ -267,7 +269,7 @@ table.center {
   }
 
   body {text-align:center;}
-/*Appearance of particular Charts- especially of greater width*/
+
 
 
 
