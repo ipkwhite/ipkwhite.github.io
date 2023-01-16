@@ -22,7 +22,7 @@
       "field": "Year",
       "title": "Principal projection",
       "type": "ordinal",
-      "columns": 3
+      "columns": 2
     },
 
 
@@ -38,6 +38,9 @@
       "scale": {
         "range": ["#FFDB58","#FFDB58", "#FFE87C","#FFF380","#FAF884","#7E3517","#C04000","#C34A2C","#EB5406","#A74AC7","#BA55D3","#C45AEC","#D462FF","#437C17","#6AA121","#6CBB3C","#52D017","#550A35","#7D0552","#7E354D","#872657"]},
       "title": "Age range"},
+
+
+
     "tooltip": [
       {"field": "Age range", "type": "nominal", "title": "Age range"},
       {"field": "Percentage", "type": "nominal", "title": "Proportion of population (%)"}
